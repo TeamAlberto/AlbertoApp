@@ -1,7 +1,9 @@
 var https = require("https"),
     express = require('express'),
     router = express.Router(),
-    config = require('./../../config/config');
+    config = require('./../../config/config'),
+
+    categories = require('./../model/categories.json');
 
 module.exports = function (app) {
   app.use('/', router);
@@ -34,6 +36,77 @@ function request(resource, params, callback) {
   }).on('error', function(e) {
     callback(e, null);
   });
+}
+
+function getCategory(id) {
+  var n = categories.length;
+  for (var i = 0; i < n; i++) {
+    if (categories[i].assgroepnr === id) return categories[i];
+  }
+  return null;
+}
+
+function getProductDimensions(product) {
+  var width = 0;
+  var height = 0;
+  var depth = 0;
+   var category = getCategory(product.assgroepnr);
+   if (!category) return null;
+
+  if (product.breedte && product.hoogte) {
+    width = product.breedte;
+    height = product.hoogte;
+  } else {
+    width = category.average_dimensions.width;
+    height = category.average_dimensions.height;
+  }
+
+  depth = width * category.average_dimensions.depth;
+
+  return {
+    width: width,
+    height: height,
+    depth: depth
+  };
+}
+
+function estimateWeight(product, productCategory, dimensions) {
+  var contentArr = product.inhoud.split(" ");
+  var unit = contentArr[contentArr.length - 1];
+  var value = parseFloat(contentArr[0]);
+
+  // in grams
+  var weigth = 0;
+  switch (unit) {
+    case "KG":
+    case "LT":
+      weight = value * 1000;
+      break;
+    case "ML":
+    case "GR":
+      weight = value;
+      break;
+    case "CL":
+      weight = value * 10;
+      break;
+    case "RL":
+      // 1 roll of toilet paper is the same as kitchen paper. close enough.
+      weight = value * 297; // http://encyclopedia.toiletpaperworld.com/toilet-paper-facts/toilet-paper-quick-facts
+      break;
+    default:
+      weight = -1;
+      break;
+  }
+
+  if (weight < 0) {
+    // guesstimate!
+    var volumeMM3 = dimensions.width * dimensions.height * dimensions.depth;
+    var volumeCM3 = volumeMM3 / 1000;
+    // weight is per 10 cm3, 10x10x10cm)
+    weight = (volumeCM3 / 1000) * productCategory.weight;
+  }
+
+  return weight;
 }
 
 router.get('/mock/:query', function (req, res, next) {
@@ -74,6 +147,9 @@ router.get('/search/:query', function (req, res, next) {
       var n = data.length;
       for (var i = 0; i < n; i++) {
         var product = data[i];
+        var productCategory = getCategory(product.assgroepnr);
+
+        if (!productCategory) continue;
 
         var nameRegexp = new RegExp("\\s+" + req.params.query, "ig");
 
@@ -90,13 +166,19 @@ router.get('/search/:query', function (req, res, next) {
 
           var name = product.artikelomschrijving;
           name = name.substring(0, 1).toUpperCase() + name.substring(1);
+
+          var dimensions = getProductDimensions(product);
+
           products.push({
             id: product.nasanr,
+            category: product.assgroepnr,
             name: name,
             image: "https://frahmework.ah.nl/!data/products/jpg/" + product.imageid + ".jpg",
             price: product.huidigeprijs,
-            width: product.breedte,
-            height: product.hoogte
+            quantity: product.inhoud,
+            dimensions: dimensions,
+            volume: dimensions.width * dimensions.height * dimensions.depth,
+            weight: estimateWeight(product, productCategory, dimensions),
           });
         }
       }
