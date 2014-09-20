@@ -5,8 +5,8 @@ define([
     'underscore',
     'backbone',
     'templates',
-    'views/cart'
-], function ($, _, Backbone, JST, CartView) {
+    'views/addgroceries'
+], function ($, _, Backbone, JST, AddgroceriesView) {
     'use strict';
 
     var SplashView = Backbone.View.extend({
@@ -35,7 +35,7 @@ define([
 
         renderConsumer: function () {
             console.log('cart');
-            this.$el.replaceWith((new CartView()).render().el);
+            this.$el.replaceWith((new AddgroceriesView()).render().el);
         },
 
         renderCourier: function () {

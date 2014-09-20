@@ -5,8 +5,9 @@ define([
     'underscore',
     'backbone',
     'templates',
-    'views/cart-item'
-], function ($, _, Backbone, JST, CartItemView) {
+    'views/cart-item',
+    'app'
+], function ($, _, Backbone, JST, CartItemView, app) {
     'use strict';
 
     var AddgroceriesView = Backbone.View.extend({
@@ -21,6 +22,8 @@ define([
         events: {
             'keyup .form-control': 'search',
             'change .form-control': 'search',
+            'click .cart': 'toCart',
+            'click .splash': 'toSplash',
         },
 
         initialize: function () {
@@ -39,6 +42,7 @@ define([
             this.listenTo(this.searchItems, 'reset', this.renderItems);
             this.listenTo(this.searchItems, 'add', this.renderItems);
             this.listenTo(this.searchItems, 'remove', this.renderItems);
+            this.listenTo(this.cartItems, 'all', this.renderTotal);
         },
 
         render: function () {
@@ -54,6 +58,21 @@ define([
                 var view = new CartItemView({model: item, collection: this.cartItems});
                 $items.append(view.render().el);
             }.bind(this));
+        },
+
+        renderTotal: function () {
+            var totalPrice = this.cartItems.reduce(function(total, item){
+                return total + (item.get('price') * item.get('quantity'));
+            }, 0);
+            this.$('.price').text(totalPrice);
+        },
+
+        toCart: function () {
+            app.vent.trigger('cart:show', this.cartItems);
+        },
+
+        toSplash: function () {
+            app.vent.trigger('splash:show');
         },
 
         search: function (e) {
