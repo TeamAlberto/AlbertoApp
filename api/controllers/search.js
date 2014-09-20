@@ -18,8 +18,7 @@ function request(resource, params, callback) {
 
   url += paramArr.join("&");
 
-  console.log(url);
-
+  var now = new Date().getTime();
   https.get(url, function(res) {
 
     var buf = "";
@@ -29,7 +28,7 @@ function request(resource, params, callback) {
     });
 
     res.on('end', function() {
-      callback(false, JSON.parse(buf));
+      callback(false, { time: new Date().getTime() - now, data: JSON.parse(buf) });
     });
 
   }).on('error', function(e) {
@@ -39,15 +38,31 @@ function request(resource, params, callback) {
 
 router.get('/search/:query', function (req, res, next) {
 
+  var now = new Date().getTime();
+  if (req.params.query.length < 3) {
+    res.json({
+      query: req.params.query,
+      success: false,
+      error: "Query too short.",
+      numResults: 0,
+      products: [],
+      time: new Date().getTime() - now,
+      apiTime: 0
+    });
+    return;
+  }
+
   request("artikelinfo", { 
     artikelomschrijving: req.params.query
-  }, function(err, data) {
+  }, function(err, response) {
     if (err) {
       res.json({
         success: false,
         error: err
       })
     } else {
+
+      var data = response.data;
 
       // pretty data
       var products = [];
@@ -75,7 +90,9 @@ router.get('/search/:query', function (req, res, next) {
             id: product.nasanr,
             name: name,
             image: "https://frahmework.ah.nl/!data/products/jpg/" + product.imageid + ".jpg",
-            price: product.huidigeprijs
+            price: product.huidigeprijs,
+            width: product.breedte,
+            height: product.hoogte
           });
         }
       }
@@ -84,10 +101,76 @@ router.get('/search/:query', function (req, res, next) {
         query: req.params.query,
         success: true,
         numResults: products.length,
-        products: products
-        // raw: data
+        products: products,
+        time: new Date().getTime() - now,
+        apiTime: response.time
       });
     }
   });
+
+});
+
+router.get('/categories', function(req, res, next) {
+
+  var output = [];
+
+  function req(assgroepnr) {
+    
+    if (assgroepnr < 1000) {
+
+      if (validCategories.indexOf(assgroepnr) >= 0) {
+        console.log("Checking " + assgroepnr + "..");
+        request("artikelinfo", { assgroepnr: assgroepnr }, function(err, response) {
+          var data = response.data;
+          if (data.length > 0) {
+            var content = [];
+            var contentMap = {};
+            var numSizes = 0;
+            var averageSize = {
+              width: 0,
+              height: 0
+            }
+
+            for (var i = 0; i < data.length; i++) {
+              var contentArr = data[i].inhoud.split(" ");
+              var suffix = contentArr[contentArr.length - 1];
+              if (!contentMap[suffix]) {
+                contentMap[suffix] = true;
+                content.push(suffix);
+              }
+              if (data[i].breedte && data[i].hoogte) {
+                numSizes++;
+                averageSize.width += data[i].breedte;
+                averageSize.height += data[i].hoogte;
+              }
+            }
+
+            averageSize.width /= numSizes;
+            averageSize.height /= numSizes;
+
+            output.push({
+              assgroepnr: assgroepnr,
+              name: data[0].assgroepomschrijving,
+              content: content,
+              dimensions_available: Math.round(100 * (numSizes / data.length)) + "%",
+              average_dimensions: {
+                width: averageSize.width,
+                height: averageSize.height
+              }
+            });
+          }
+
+          req(assgroepnr + 1);
+        });
+      } else {
+        console.log("Ignoring " + assgroepnr);
+        req(assgroepnr + 1);
+      }
+    } else {
+      res.json(output);
+    }
+  }
+
+  req(1);
 
 });

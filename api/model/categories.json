@@ -1,0 +1,1234 @@
+[{
+	"assgroepnr": 1,
+	"name": "Groenteconserven",
+	"content": ["GR", "ML", "KG"],
+	"dimensions_available": "86%",
+	"average_dimensions": {
+		"width": 89.53260869565217,
+		"height": 106.41847826086956
+	}
+}, {
+	"assgroepnr": 2,
+	"name": "Vruchtenconserven",
+	"content": ["ML", "GR"],
+	"dimensions_available": "83%",
+	"average_dimensions": {
+		"width": 83.98076923076923,
+		"height": 103.96153846153847
+	}
+}, {
+	"assgroepnr": 3,
+	"name": "Broodbeleg",
+	"content": ["GR", "KG", "ST"],
+	"dimensions_available": "77%",
+	"average_dimensions": {
+		"width": 82.16153846153846,
+		"height": 125.20769230769231
+	}
+}, {
+	"assgroepnr": 4,
+	"name": "Visconserven",
+	"content": ["GR"],
+	"dimensions_available": "68%",
+	"average_dimensions": {
+		"width": 80.40816326530613,
+		"height": 69.71428571428571
+	}
+}, {
+	"assgroepnr": 5,
+	"name": "Vleesconserven",
+	"content": ["GR", "ST"],
+	"dimensions_available": "80%",
+	"average_dimensions": {
+		"width": 85.54166666666667,
+		"height": 115.47916666666667
+	}
+}, {
+	"assgroepnr": 7,
+	"name": "Babyvoeding",
+	"content": ["ML", "GR", "EA", "LT", "ST"],
+	"dimensions_available": "53%",
+	"average_dimensions": {
+		"width": 89.52023121387283,
+		"height": 135.31791907514452
+	}
+}, {
+	"assgroepnr": 8,
+	"name": "Koffie & Thee",
+	"content": ["GR", "ST", "KG"],
+	"dimensions_available": "53%",
+	"average_dimensions": {
+		"width": 108.5911330049261,
+		"height": 141.32512315270935
+	}
+}, {
+	"assgroepnr": 9,
+	"name": "Drink Zuivel",
+	"content": ["ML", "LT", "GR", "ST"],
+	"dimensions_available": "61%",
+	"average_dimensions": {
+		"width": 77.2987012987013,
+		"height": 214.5974025974026
+	}
+}, {
+	"assgroepnr": 10,
+	"name": "Eet Zuivel",
+	"content": ["GR", "EA", "LT", "ML", "KG", "ST"],
+	"dimensions_available": "57%",
+	"average_dimensions": {
+		"width": 97.31904761904762,
+		"height": 125.51904761904763
+	}
+}, {
+	"assgroepnr": 11,
+	"name": "Koffiemelk",
+	"content": ["ST", "GR", "ML"],
+	"dimensions_available": "83%",
+	"average_dimensions": {
+		"width": 89.14285714285714,
+		"height": 160.65714285714284
+	}
+}, {
+	"assgroepnr": 12,
+	"name": "Rode wijn",
+	"content": ["LT", "ST", "CL"],
+	"dimensions_available": "62%",
+	"average_dimensions": {
+		"width": 79.3739837398374,
+		"height": 294.7479674796748
+	}
+}, {
+	"assgroepnr": 14,
+	"name": "Frisdranken overig",
+	"content": ["LT", "CL", "ML", "ST"],
+	"dimensions_available": "51%",
+	"average_dimensions": {
+		"width": 84.76966292134831,
+		"height": 236.07865168539325
+	}
+}, {
+	"assgroepnr": 15,
+	"name": "Vruchtensappen",
+	"content": ["LT", "ML", "CL"],
+	"dimensions_available": "91%",
+	"average_dimensions": {
+		"width": 107.8804347826087,
+		"height": 193.5
+	}
+}, {
+	"assgroepnr": 16,
+	"name": "Chips & Zoutjes",
+	"content": ["GR"],
+	"dimensions_available": "46%",
+	"average_dimensions": {
+		"width": 147.31506849315068,
+		"height": 228.1917808219178
+	}
+}, {
+	"assgroepnr": 17,
+	"name": "Koek",
+	"content": ["GR", "KG", "ST"],
+	"dimensions_available": "76%",
+	"average_dimensions": {
+		"width": 172.83908045977012,
+		"height": 118.42528735632185
+	}
+}, {
+	"assgroepnr": 18,
+	"name": "Suikerwerk",
+	"content": ["GR", "ST", "KG", "EA"],
+	"dimensions_available": "65%",
+	"average_dimensions": {
+		"width": 120.37307692307692,
+		"height": 165.32692307692307
+	}
+}, {
+	"assgroepnr": 19,
+	"name": "Chocolade",
+	"content": ["GR", "KG"],
+	"dimensions_available": "67%",
+	"average_dimensions": {
+		"width": 134.76388888888889,
+		"height": 125.99305555555556
+	}
+}, {
+	"assgroepnr": 20,
+	"name": "Broodvervangers",
+	"content": ["GR", "ST"],
+	"dimensions_available": "77%",
+	"average_dimensions": {
+		"width": 158.5568181818182,
+		"height": 132.72727272727272
+	}
+}, {
+	"assgroepnr": 22,
+	"name": "Soepen",
+	"content": ["ML", "GR", "LT", "ST"],
+	"dimensions_available": "77%",
+	"average_dimensions": {
+		"width": 99.57894736842105,
+		"height": 148.55555555555554
+	}
+}, {
+	"assgroepnr": 23,
+	"name": "Pasta",
+	"content": ["KG", "GR"],
+	"dimensions_available": "75%",
+	"average_dimensions": {
+		"width": 142.75757575757575,
+		"height": 169.62121212121212
+	}
+}, {
+	"assgroepnr": 25,
+	"name": "Suiker",
+	"content": ["KG", "GR", "ST"],
+	"dimensions_available": "67%",
+	"average_dimensions": {
+		"width": 97.75,
+		"height": 148.29166666666666
+	}
+}, {
+	"assgroepnr": 27,
+	"name": "Bakprodukten",
+	"content": ["KG", "GR", "ST", "ML"],
+	"dimensions_available": "53%",
+	"average_dimensions": {
+		"width": 98.3587786259542,
+		"height": 144.0229007633588
+	}
+}, {
+	"assgroepnr": 28,
+	"name": "Houdbare Zuivel",
+	"content": ["ML", "LT", "GR", "ST"],
+	"dimensions_available": "63%",
+	"average_dimensions": {
+		"width": 95.47368421052632,
+		"height": 172.47368421052633
+	}
+}, {
+	"assgroepnr": 29,
+	"name": "Wasmiddelen",
+	"content": ["ML", "LT", "KG", "GR", "EA", "ST", "1N"],
+	"dimensions_available": "36%",
+	"average_dimensions": {
+		"width": 120.51239669421487,
+		"height": 229.6611570247934
+	}
+}, {
+	"assgroepnr": 30,
+	"name": "Schoonmaak artikelen",
+	"content": ["ML", "LT", "ST", "EA", "KG", "1N", "GR"],
+	"dimensions_available": "38%",
+	"average_dimensions": {
+		"width": 109.84,
+		"height": 222.14666666666668
+	}
+}, {
+	"assgroepnr": 31,
+	"name": "Dierenvoeding Kat",
+	"content": ["GR", "KG", "LT", "ML", "ST"],
+	"dimensions_available": "64%",
+	"average_dimensions": {
+		"width": 139.43307086614172,
+		"height": 159.11023622047244
+	}
+}, {
+	"assgroepnr": 33,
+	"name": "Papierwaren",
+	"content": ["RL", "ST"],
+	"dimensions_available": "55%",
+	"average_dimensions": {
+		"width": 239.12820512820514,
+		"height": 162.6153846153846
+	}
+}, {
+	"assgroepnr": 34,
+	"name": "Basis Non Food",
+	"content": ["ST", "MT", "EA", "ML", "GR"],
+	"dimensions_available": "42%",
+	"average_dimensions": {
+		"width": 122.27659574468085,
+		"height": 100.07446808510639
+	}
+}, {
+	"assgroepnr": 36,
+	"name": "Speciale Voeding",
+	"content": ["ST", "GR", "EA", "ML", "LT", "1N"],
+	"dimensions_available": "62%",
+	"average_dimensions": {
+		"width": 88,
+		"height": 127.16233766233766
+	}
+}, {
+	"assgroepnr": 39,
+	"name": "Beenmode",
+	"content": ["PR", "ST", "EA", "GR"],
+	"dimensions_available": "10%",
+	"average_dimensions": {
+		"width": 88.41935483870968,
+		"height": 218.74193548387098
+	}
+}, {
+	"assgroepnr": 44,
+	"name": "Tussendoortjes",
+	"content": ["GR", "ST"],
+	"dimensions_available": "45%",
+	"average_dimensions": {
+		"width": 175.41666666666666,
+		"height": 122.8125
+	}
+}, {
+	"assgroepnr": 47,
+	"name": "Borrel",
+	"content": ["GR", "KG"],
+	"dimensions_available": "29%",
+	"average_dimensions": {
+		"width": 120.35714285714286,
+		"height": 118.30952380952381
+	}
+}, {
+	"assgroepnr": 48,
+	"name": "zonnebrandartikelen",
+	"content": ["ML", "GR", "ST"],
+	"dimensions_available": "0%",
+	"average_dimensions": {
+		"width": null,
+		"height": null
+	}
+}, {
+	"assgroepnr": 52,
+	"name": "Deli bediening",
+	"content": ["KG", "GR"],
+	"dimensions_available": "90%",
+	"average_dimensions": {
+		"width": 162.6315789473684,
+		"height": 136.67105263157896
+	}
+}, {
+	"assgroepnr": 55,
+	"name": "Boter & Margarine",
+	"content": ["ML", "GR", "ST", "KG"],
+	"dimensions_available": "89%",
+	"average_dimensions": {
+		"width": 114.3225806451613,
+		"height": 93.12903225806451
+	}
+}, {
+	"assgroepnr": 56,
+	"name": "Eieren",
+	"content": ["ST", "EA"],
+	"dimensions_available": "71%",
+	"average_dimensions": {
+		"width": 178,
+		"height": 69.9090909090909
+	}
+}, {
+	"assgroepnr": 58,
+	"name": "Gevogelte zb",
+	"content": ["KG", "GR"],
+	"dimensions_available": "42%",
+	"average_dimensions": {
+		"width": 185.15555555555557,
+		"height": 164.37777777777777
+	}
+}, {
+	"assgroepnr": 59,
+	"name": "Tabak",
+	"content": ["ST", "GR", "EA", "KG"],
+	"dimensions_available": "65%",
+	"average_dimensions": {
+		"width": 78.01418439716312,
+		"height": 90.43262411347517
+	}
+}, {
+	"assgroepnr": 84,
+	"name": "Kaas ZB",
+	"content": ["GR", "KG"],
+	"dimensions_available": "67%",
+	"average_dimensions": {
+		"width": 118.20125786163523,
+		"height": 147.20754716981133
+	}
+}, {
+	"assgroepnr": 85,
+	"name": "Droge Worst",
+	"content": ["GR", "ST"],
+	"dimensions_available": "66%",
+	"average_dimensions": {
+		"width": 91.96296296296296,
+		"height": 244.03703703703704
+	}
+}, {
+	"assgroepnr": 86,
+	"name": "Rookworst",
+	"content": ["GR", "ST"],
+	"dimensions_available": "63%",
+	"average_dimensions": {
+		"width": 129.33333333333334,
+		"height": 164
+	}
+}, {
+	"assgroepnr": 87,
+	"name": "Tijdschriften",
+	"content": ["ST", "EA"],
+	"dimensions_available": "0%",
+	"average_dimensions": {
+		"width": null,
+		"height": null
+	}
+}, {
+	"assgroepnr": 91,
+	"name": "Fruit Wand",
+	"content": ["ST", "KG", "GR"],
+	"dimensions_available": "70%",
+	"average_dimensions": {
+		"width": 170.76190476190476,
+		"height": 161.52380952380952
+	}
+}, {
+	"assgroepnr": 92,
+	"name": "Groenten Wand",
+	"content": ["ST", "GR", "KG"],
+	"dimensions_available": "83%",
+	"average_dimensions": {
+		"width": 150,
+		"height": 145.4
+	}
+}, {
+	"assgroepnr": 105,
+	"name": "Aardappelen",
+	"content": ["KG", "GR"],
+	"dimensions_available": "90%",
+	"average_dimensions": {
+		"width": 186.73684210526315,
+		"height": 203.42105263157896
+	}
+}, {
+	"assgroepnr": 115,
+	"name": "Kookgemak",
+	"content": ["GR", "ML", "KG", "ST"],
+	"dimensions_available": "57%",
+	"average_dimensions": {
+		"width": 142.66666666666666,
+		"height": 166.97435897435898
+	}
+}, {
+	"assgroepnr": 120,
+	"name": "Vleeswaren ZB",
+	"content": ["GR", "KG"],
+	"dimensions_available": "56%",
+	"average_dimensions": {
+		"width": 143.93430656934308,
+		"height": 148.37956204379563
+	}
+}, {
+	"assgroepnr": 122,
+	"name": "Salades ZB",
+	"content": ["GR", "KG"],
+	"dimensions_available": "65%",
+	"average_dimensions": {
+		"width": 126.15151515151516,
+		"height": 105.06060606060606
+	}
+}, {
+	"assgroepnr": 123,
+	"name": "Nieuw wereld agf",
+	"content": ["KG"],
+	"dimensions_available": "0%",
+	"average_dimensions": {
+		"width": null,
+		"height": null
+	}
+}, {
+	"assgroepnr": 125,
+	"name": "Gekoelde sappen",
+	"content": ["LT", "ML", "GR"],
+	"dimensions_available": "42%",
+	"average_dimensions": {
+		"width": 77.61016949152543,
+		"height": 225.4406779661017
+	}
+}, {
+	"assgroepnr": 127,
+	"name": "Cereals",
+	"content": ["GR", "KG"],
+	"dimensions_available": "73%",
+	"average_dimensions": {
+		"width": 167.4,
+		"height": 241.6
+	}
+}, {
+	"assgroepnr": 128,
+	"name": "Rijst",
+	"content": ["GR", "KG"],
+	"dimensions_available": "62%",
+	"average_dimensions": {
+		"width": 110.8913043478261,
+		"height": 181.52173913043478
+	}
+}, {
+	"assgroepnr": 131,
+	"name": "Dierenvoeding Hond",
+	"content": ["KG", "GR", "ST"],
+	"dimensions_available": "56%",
+	"average_dimensions": {
+		"width": 132.54166666666666,
+		"height": 174.44444444444446
+	}
+}, {
+	"assgroepnr": 140,
+	"name": "Noten & Toast",
+	"content": ["GR", "KG"],
+	"dimensions_available": "81%",
+	"average_dimensions": {
+		"width": 124.06603773584905,
+		"height": 163.80188679245282
+	}
+}, {
+	"assgroepnr": 141,
+	"name": "Seizoenfood",
+	"content": ["GR", "ST", "KG"],
+	"dimensions_available": "28%",
+	"average_dimensions": {
+		"width": 141.77551020408163,
+		"height": 163.0408163265306
+	}
+}, {
+	"assgroepnr": 142,
+	"name": "Verse Noten",
+	"content": ["GR"],
+	"dimensions_available": "91%",
+	"average_dimensions": {
+		"width": 128.37209302325581,
+		"height": 102.09302325581395
+	}
+}, {
+	"assgroepnr": 160,
+	"name": "Verse Vis ZB",
+	"content": ["GR", "KG", "ST", "ML"],
+	"dimensions_available": "37%",
+	"average_dimensions": {
+		"width": 164.62121212121212,
+		"height": 153.54545454545453
+	}
+}, {
+	"assgroepnr": 164,
+	"name": "Gesteriliseerde Melk",
+	"content": ["LT", "ML", "GR"],
+	"dimensions_available": "72%",
+	"average_dimensions": {
+		"width": 95.14285714285714,
+		"height": 192.71428571428572
+	}
+}, {
+	"assgroepnr": 179,
+	"name": "Speciaal Bier",
+	"content": ["LT", "CL", "ST", "ML"],
+	"dimensions_available": "44%",
+	"average_dimensions": {
+		"width": 122.70833333333333,
+		"height": 169.125
+	}
+}, {
+	"assgroepnr": 214,
+	"name": "Cola",
+	"content": ["LT", "ML", "CL", "KG", "ST"],
+	"dimensions_available": "60%",
+	"average_dimensions": {
+		"width": 112.0576923076923,
+		"height": 221.84615384615384
+	}
+}, {
+	"assgroepnr": 216,
+	"name": "Bier Pils",
+	"content": ["CL", "LT", "ST", "ML", "EA"],
+	"dimensions_available": "63%",
+	"average_dimensions": {
+		"width": 139.25974025974025,
+		"height": 176.46753246753246
+	}
+}, {
+	"assgroepnr": 226,
+	"name": "Kruiden Specerijen",
+	"content": ["GR", "ML"],
+	"dimensions_available": "60%",
+	"average_dimensions": {
+		"width": 65.646408839779,
+		"height": 107.99447513812154
+	}
+}, {
+	"assgroepnr": 227,
+	"name": "Wereldkeuken",
+	"content": ["GR", "ML", "ST"],
+	"dimensions_available": "70%",
+	"average_dimensions": {
+		"width": 109.97647058823529,
+		"height": 138.75294117647059
+	}
+}, {
+	"assgroepnr": 235,
+	"name": "Warm Tussendoor",
+	"content": ["ST", "GR", "ML"],
+	"dimensions_available": "71%",
+	"average_dimensions": {
+		"width": 96.12676056338029,
+		"height": 125.69014084507042
+	}
+}, {
+	"assgroepnr": 236,
+	"name": "Toiletartik & Luchtverfrissers",
+	"content": ["ML", "LT", "GR", "SE", "ST", "EA", "1N"],
+	"dimensions_available": "38%",
+	"average_dimensions": {
+		"width": 90.95890410958904,
+		"height": 188.4794520547945
+	}
+}, {
+	"assgroepnr": 238,
+	"name": "Mondhygiene",
+	"content": ["ML", "ST", "MT", "GR", "1N"],
+	"dimensions_available": "38%",
+	"average_dimensions": {
+		"width": 57.227722772277225,
+		"height": 167.75247524752476
+	}
+}, {
+	"assgroepnr": 240,
+	"name": "Bad & Douche & Zeep",
+	"content": ["ML"],
+	"dimensions_available": "46%",
+	"average_dimensions": {
+		"width": 77.22549019607843,
+		"height": 192.65686274509804
+	}
+}, {
+	"assgroepnr": 242,
+	"name": "Periodeverzorging",
+	"content": ["ST", "1N", "ML"],
+	"dimensions_available": "61%",
+	"average_dimensions": {
+		"width": 109.98684210526316,
+		"height": 141.73684210526315
+	}
+}, {
+	"assgroepnr": 243,
+	"name": "Geuren",
+	"content": ["ST", "ML"],
+	"dimensions_available": "0%",
+	"average_dimensions": {
+		"width": null,
+		"height": null
+	}
+}, {
+	"assgroepnr": 244,
+	"name": "Styling",
+	"content": ["ML", "GR"],
+	"dimensions_available": "60%",
+	"average_dimensions": {
+		"width": 62.431654676258994,
+		"height": 165.28776978417267
+	}
+}, {
+	"assgroepnr": 245,
+	"name": "Huid & Overig",
+	"content": ["ML", "ST", "GR"],
+	"dimensions_available": "89%",
+	"average_dimensions": {
+		"width": 78.1969696969697,
+		"height": 133.27272727272728
+	}
+}, {
+	"assgroepnr": 248,
+	"name": "Haarmode",
+	"content": ["ST"],
+	"dimensions_available": "0%",
+	"average_dimensions": {
+		"width": null,
+		"height": null
+	}
+}, {
+	"assgroepnr": 250,
+	"name": "Shampoo & Cremespoeling",
+	"content": ["ML", "ST"],
+	"dimensions_available": "40%",
+	"average_dimensions": {
+		"width": 72.40287769784173,
+		"height": 188.0359712230216
+	}
+}, {
+	"assgroepnr": 254,
+	"name": "Babyluiers & Verzorging",
+	"content": ["ML", "ST", "EA", "GR", "1N"],
+	"dimensions_available": "90%",
+	"average_dimensions": {
+		"width": 146.8148148148148,
+		"height": 199.09259259259258
+	}
+}, {
+	"assgroepnr": 256,
+	"name": "Maaltijdgemak",
+	"content": ["GR", "ST", "ML", "KG"],
+	"dimensions_available": "27%",
+	"average_dimensions": {
+		"width": 186.2596153846154,
+		"height": 185.40384615384616
+	}
+}, {
+	"assgroepnr": 258,
+	"name": "Witte wijn & rose",
+	"content": ["LT", "ML", "CL"],
+	"dimensions_available": "42%",
+	"average_dimensions": {
+		"width": 78.98876404494382,
+		"height": 295.80898876404495
+	}
+}, {
+	"assgroepnr": 259,
+	"name": "Aperitieven & mixdranken",
+	"content": ["CL", "ML", "LT"],
+	"dimensions_available": "63%",
+	"average_dimensions": {
+		"width": 74.92957746478874,
+		"height": 252.29577464788733
+	}
+}, {
+	"assgroepnr": 260,
+	"name": "Aperitieven",
+	"content": ["LT"],
+	"dimensions_available": "0%",
+	"average_dimensions": {
+		"width": null,
+		"height": null
+	}
+}, {
+	"assgroepnr": 262,
+	"name": "Topwijn",
+	"content": ["LT", "CL"],
+	"dimensions_available": "0%",
+	"average_dimensions": {
+		"width": null,
+		"height": null
+	}
+}, {
+	"assgroepnr": 263,
+	"name": "Topwijnen wit",
+	"content": ["LT"],
+	"dimensions_available": "0%",
+	"average_dimensions": {
+		"width": null,
+		"height": null
+	}
+}, {
+	"assgroepnr": 264,
+	"name": "Grab & Go",
+	"content": ["ML", "GR", "ST"],
+	"dimensions_available": "0%",
+	"average_dimensions": {
+		"width": null,
+		"height": null
+	}
+}, {
+	"assgroepnr": 285,
+	"name": "Aardappel, pasta, rijst",
+	"content": ["GR"],
+	"dimensions_available": "70%",
+	"average_dimensions": {
+		"width": 131.07142857142858,
+		"height": 163
+	}
+}, {
+	"assgroepnr": 287,
+	"name": "Gekoeld brood hartig",
+	"content": ["GR"],
+	"dimensions_available": "65%",
+	"average_dimensions": {
+		"width": 241.53333333333333,
+		"height": 102.33333333333333
+	}
+}, {
+	"assgroepnr": 290,
+	"name": "Scheren",
+	"content": ["ST", "ML", "1N"],
+	"dimensions_available": "55%",
+	"average_dimensions": {
+		"width": 72.98113207547169,
+		"height": 182.96226415094338
+	}
+}, {
+	"assgroepnr": 291,
+	"name": "Deodorant",
+	"content": ["ML", "ST"],
+	"dimensions_available": "38%",
+	"average_dimensions": {
+		"width": 45.860759493670884,
+		"height": 156.16455696202533
+	}
+}, {
+	"assgroepnr": 304,
+	"name": "Spelen",
+	"content": ["1N", "ST", "GR", "SE", "EA"],
+	"dimensions_available": "3%",
+	"average_dimensions": {
+		"width": 117.66666666666667,
+		"height": 191.16666666666666
+	}
+}, {
+	"assgroepnr": 311,
+	"name": "Feestartikelen",
+	"content": ["ST", "1N", "EA", "ML", "SE"],
+	"dimensions_available": "15%",
+	"average_dimensions": {
+		"width": 105.2,
+		"height": 197.6
+	}
+}, {
+	"assgroepnr": 314,
+	"name": "Water",
+	"content": ["CL", "LT"],
+	"dimensions_available": "79%",
+	"average_dimensions": {
+		"width": 131.64864864864865,
+		"height": 274.05405405405406
+	}
+}, {
+	"assgroepnr": 330,
+	"name": "Wenskaarten/kadoverpakking",
+	"content": ["EA", "ST", "SE", "RL"],
+	"dimensions_available": "45%",
+	"average_dimensions": {
+		"width": 12.117647058823529,
+		"height": 3.1862745098039214
+	}
+}, {
+	"assgroepnr": 333,
+	"name": "HG Schoonmaakmiddelen",
+	"content": ["LT"],
+	"dimensions_available": "0%",
+	"average_dimensions": {
+		"width": null,
+		"height": null
+	}
+}, {
+	"assgroepnr": 337,
+	"name": "Oosterse maaltijdcomponenten",
+	"content": ["ML", "GR", "ST"],
+	"dimensions_available": "75%",
+	"average_dimensions": {
+		"width": 89.88535031847134,
+		"height": 149.15923566878982
+	}
+}, {
+	"assgroepnr": 338,
+	"name": "Mediterrane maaltijdcomp",
+	"content": ["GR", "ML"],
+	"dimensions_available": "76%",
+	"average_dimensions": {
+		"width": 77.64383561643835,
+		"height": 122.71917808219177
+	}
+}, {
+	"assgroepnr": 339,
+	"name": "Basis Internat maaltijdcomp",
+	"content": ["GR", "ST", "ML"],
+	"dimensions_available": "46%",
+	"average_dimensions": {
+		"width": 125.26530612244898,
+		"height": 173.73469387755102
+	}
+}, {
+	"assgroepnr": 348,
+	"name": "Schoonmaakbenodigdheden",
+	"content": ["ST", "PR", "GR"],
+	"dimensions_available": "65%",
+	"average_dimensions": {
+		"width": 136.84782608695653,
+		"height": 190.17391304347825
+	}
+}, {
+	"assgroepnr": 350,
+	"name": "Olie & Azijn",
+	"content": ["ML", "LT"],
+	"dimensions_available": "74%",
+	"average_dimensions": {
+		"width": 64.37037037037037,
+		"height": 234.8148148148148
+	}
+}, {
+	"assgroepnr": 352,
+	"name": "Zuren & Frituurvetten",
+	"content": ["GR", "LT", "KG", "ML"],
+	"dimensions_available": "90%",
+	"average_dimensions": {
+		"width": 102.69642857142857,
+		"height": 138.26785714285714
+	}
+}, {
+	"assgroepnr": 354,
+	"name": "Snacksauzen",
+	"content": ["ML", "GR", "KG"],
+	"dimensions_available": "55%",
+	"average_dimensions": {
+		"width": 74.33576642335767,
+		"height": 155.6058394160584
+	}
+}, {
+	"assgroepnr": 356,
+	"name": "Groente & Vleessauzen",
+	"content": ["GR", "ML"],
+	"dimensions_available": "84%",
+	"average_dimensions": {
+		"width": 90.28455284552845,
+		"height": 153.6829268292683
+	}
+}, {
+	"assgroepnr": 359,
+	"name": "Service artikelen counter",
+	"content": ["ST"],
+	"dimensions_available": "9%",
+	"average_dimensions": {
+		"width": 150,
+		"height": 10
+	}
+}, {
+	"assgroepnr": 371,
+	"name": "Ondergoed",
+	"content": ["ST", "SE", "PR", "EA", "BS", "1N", "LT"],
+	"dimensions_available": "0%",
+	"average_dimensions": {
+		"width": null,
+		"height": null
+	}
+}, {
+	"assgroepnr": 382,
+	"name": "Diepvries Snacks",
+	"content": ["GR", "KG", "ST", "ML"],
+	"dimensions_available": "43%",
+	"average_dimensions": {
+		"width": 137.51764705882354,
+		"height": 158.81176470588235
+	}
+}, {
+	"assgroepnr": 385,
+	"name": "Diepvries Maaltijdcomponenten",
+	"content": ["GR", "ML", "KG", "ST"],
+	"dimensions_available": "60%",
+	"average_dimensions": {
+		"width": 148.27480916030535,
+		"height": 173.65648854961833
+	}
+}, {
+	"assgroepnr": 386,
+	"name": "Diepvries Aardappelproducten",
+	"content": ["GR", "KG"],
+	"dimensions_available": "49%",
+	"average_dimensions": {
+		"width": 215,
+		"height": 213.97619047619048
+	}
+}, {
+	"assgroepnr": 391,
+	"name": "Diepvries IJs/Gebak",
+	"content": ["GR", "ST", "ML", "LT"],
+	"dimensions_available": "31%",
+	"average_dimensions": {
+		"width": 150.13978494623655,
+		"height": 133.16129032258064
+	}
+}, {
+	"assgroepnr": 394,
+	"name": "Diepvries Pizza's",
+	"content": ["GR", "ST", "LT"],
+	"dimensions_available": "45%",
+	"average_dimensions": {
+		"width": 241.68085106382978,
+		"height": 236.59574468085106
+	}
+}, {
+	"assgroepnr": 404,
+	"name": "Batterijen counter",
+	"content": ["1N", "ST"],
+	"dimensions_available": "67%",
+	"average_dimensions": {
+		"width": 58.5,
+		"height": 87.75
+	}
+}, {
+	"assgroepnr": 406,
+	"name": "Scheermesjes tbv assgr 290",
+	"content": ["1N", "ST"],
+	"dimensions_available": "43%",
+	"average_dimensions": {
+		"width": 99,
+		"height": 111.66666666666667
+	}
+}, {
+	"assgroepnr": 408,
+	"name": "Kantoor",
+	"content": ["EA", "ST", "ML", "RL", "1N", "SE", "GR", "MT"],
+	"dimensions_available": "11%",
+	"average_dimensions": {
+		"width": 112.29411764705883,
+		"height": 179.11764705882354
+	}
+}, {
+	"assgroepnr": 500,
+	"name": "Witbrood",
+	"content": ["GR"],
+	"dimensions_available": "82%",
+	"average_dimensions": {
+		"width": 120,
+		"height": 123.33333333333333
+	}
+}, {
+	"assgroepnr": 502,
+	"name": "Bruinbrood",
+	"content": ["ST", "GR"],
+	"dimensions_available": "100%",
+	"average_dimensions": {
+		"width": 125.71428571428571,
+		"height": 122.14285714285714
+	}
+}, {
+	"assgroepnr": 504,
+	"name": "Volkorenbrood",
+	"content": ["GR"],
+	"dimensions_available": "77%",
+	"average_dimensions": {
+		"width": 111.76470588235294,
+		"height": 131.1764705882353
+	}
+}, {
+	"assgroepnr": 508,
+	"name": "Gevuld brood",
+	"content": ["ST", "GR"],
+	"dimensions_available": "45%",
+	"average_dimensions": {
+		"width": 154.375,
+		"height": 141.08333333333334
+	}
+}, {
+	"assgroepnr": 510,
+	"name": "Kleinbrood",
+	"content": ["GR", "ST"],
+	"dimensions_available": "79%",
+	"average_dimensions": {
+		"width": 101.66666666666667,
+		"height": 96
+	}
+}, {
+	"assgroepnr": 512,
+	"name": "Kort houdbaar brood",
+	"content": ["ST", "GR"],
+	"dimensions_available": "59%",
+	"average_dimensions": {
+		"width": 281.53846153846155,
+		"height": 127.6923076923077
+	}
+}, {
+	"assgroepnr": 514,
+	"name": "Gekoeld brood zoet",
+	"content": ["GR"],
+	"dimensions_available": "67%",
+	"average_dimensions": {
+		"width": 59,
+		"height": 133.75
+	}
+}, {
+	"assgroepnr": 518,
+	"name": "Luxe banket",
+	"content": ["GR", "ST"],
+	"dimensions_available": "24%",
+	"average_dimensions": {
+		"width": 110.55555555555556,
+		"height": 177.22222222222223
+	}
+}, {
+	"assgroepnr": 520,
+	"name": "BO grootbrood",
+	"content": ["GR", "ST"],
+	"dimensions_available": "41%",
+	"average_dimensions": {
+		"width": 132.94117647058823,
+		"height": 125.58823529411765
+	}
+}, {
+	"assgroepnr": 522,
+	"name": "BO kleinbrood",
+	"content": ["GR", "ST"],
+	"dimensions_available": "65%",
+	"average_dimensions": {
+		"width": 103.76470588235294,
+		"height": 115.94117647058823
+	}
+}, {
+	"assgroepnr": 524,
+	"name": "BO stokbrood",
+	"content": ["ST", "GR"],
+	"dimensions_available": "57%",
+	"average_dimensions": {
+		"width": 431.25,
+		"height": 187.5
+	}
+}, {
+	"assgroepnr": 526,
+	"name": "BO banket zoet",
+	"content": ["ST", "GR"],
+	"dimensions_available": "55%",
+	"average_dimensions": {
+		"width": 144.44444444444446,
+		"height": 99.77777777777777
+	}
+}, {
+	"assgroepnr": 528,
+	"name": "BO banket hartig",
+	"content": ["GR", "ST"],
+	"dimensions_available": "78%",
+	"average_dimensions": {
+		"width": 175.71428571428572,
+		"height": 126.42857142857143
+	}
+}, {
+	"assgroepnr": 538,
+	"name": "vers Gebak ZB",
+	"content": ["ST", "GR"],
+	"dimensions_available": "18%",
+	"average_dimensions": {
+		"width": 218.92307692307693,
+		"height": 63.07692307692308
+	}
+}, {
+	"assgroepnr": 545,
+	"name": "Kaas ongekoeld",
+	"content": ["GR", "ST"],
+	"dimensions_available": "71%",
+	"average_dimensions": {
+		"width": 85.05882352941177,
+		"height": 112.82352941176471
+	}
+}, {
+	"assgroepnr": 546,
+	"name": "Deli droge worst",
+	"content": ["GR", "KG"],
+	"dimensions_available": "75%",
+	"average_dimensions": {
+		"width": 140.26666666666668,
+		"height": 243.33333333333334
+	}
+}, {
+	"assgroepnr": 613,
+	"name": "Kassakoeler zuivel",
+	"content": ["CL", "LT", "ML"],
+	"dimensions_available": "0%",
+	"average_dimensions": {
+		"width": null,
+		"height": null
+	}
+}, {
+	"assgroepnr": 614,
+	"name": "Kassakoeler",
+	"content": ["ML", "LT"],
+	"dimensions_available": "0%",
+	"average_dimensions": {
+		"width": null,
+		"height": null
+	}
+}, {
+	"assgroepnr": 637,
+	"name": "B zuivel",
+	"content": ["GR"],
+	"dimensions_available": "0%",
+	"average_dimensions": {
+		"width": null,
+		"height": null
+	}
+}, {
+	"assgroepnr": 652,
+	"name": "B Counter",
+	"content": ["ST"],
+	"dimensions_available": "0%",
+	"average_dimensions": {
+		"width": null,
+		"height": null
+	}
+}, {
+	"assgroepnr": 729,
+	"name": "Cadeaukaarten",
+	"content": ["ST"],
+	"dimensions_available": "88%",
+	"average_dimensions": {
+		"width": 99.05714285714286,
+		"height": 136.42857142857142
+	}
+}, {
+	"assgroepnr": 734,
+	"name": "Bad en bedtextiel",
+	"content": ["ST", "KG"],
+	"dimensions_available": "0%",
+	"average_dimensions": {
+		"width": null,
+		"height": null
+	}
+}, {
+	"assgroepnr": 766,
+	"name": "hotcounter",
+	"content": ["ST"],
+	"dimensions_available": "0%",
+	"average_dimensions": {
+		"width": null,
+		"height": null
+	}
+}, {
+	"assgroepnr": 830,
+	"name": "Geneesmiddelen",
+	"content": ["ST", "EA", "GR", "ML", "PR"],
+	"dimensions_available": "32%",
+	"average_dimensions": {
+		"width": 71.36666666666666,
+		"height": 102.46666666666667
+	}
+}, {
+	"assgroepnr": 841,
+	"name": "modules sorbo",
+	"content": ["ST", "EA"],
+	"dimensions_available": "0%",
+	"average_dimensions": {
+		"width": null,
+		"height": null
+	}
+}, {
+	"assgroepnr": 860,
+	"name": "Wholefoods",
+	"content": ["GR", "ML"],
+	"dimensions_available": "0%",
+	"average_dimensions": {
+		"width": null,
+		"height": null
+	}
+}, {
+	"assgroepnr": 903,
+	"name": "Vlees zb & vegetarisch",
+	"content": ["GR", "KG", "ST"],
+	"dimensions_available": "39%",
+	"average_dimensions": {
+		"width": 191.2922077922078,
+		"height": 149.80519480519482
+	}
+}, {
+	"assgroepnr": 913,
+	"name": "G&S Grill",
+	"content": ["KG"],
+	"dimensions_available": "0%",
+	"average_dimensions": {
+		"width": null,
+		"height": null
+	}
+}, {
+	"assgroepnr": 950,
+	"name": "Premiums diversen",
+	"content": ["ST"],
+	"dimensions_available": "0%",
+	"average_dimensions": {
+		"width": null,
+		"height": null
+	}
+}]
