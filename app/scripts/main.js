@@ -17,7 +17,10 @@ require.config({
 });
 
 require([
-    'backbone'
-], function (Backbone) {
+    'backbone', 'views/splash'
+], function (Backbone, SplashView) {
     Backbone.history.start();
+    var view = new SplashView();
+    $('body').apppend(view.render().el);
+
 });
