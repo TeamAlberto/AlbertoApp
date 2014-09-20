@@ -56,7 +56,7 @@ router.get('/search/:query', function (req, res, next) {
       for (var i = 0; i < n; i++) {
         var product = data[i];
 
-        var nameRegexp = new RegExp("\s+" + req.params.query, "ig");
+        var nameRegexp = new RegExp("\\s+" + req.params.query, "ig");
 
         // Validate incoming data
         if (product.artikelomschrijving &&
@@ -65,8 +65,8 @@ router.get('/search/:query', function (req, res, next) {
             product.breedte && product.hoogte &&
             product.huidigeprijs &&
             product.inhoud &&
-            product.huidigevoorraad > 0
-            // nameRegexp.test(product.artikelomschrijving)
+            product.huidigevoorraad > 0 &&
+            nameRegexp.test(product.artikelomschrijving)
             ) {
 
           var name = product.artikelomschrijving;
