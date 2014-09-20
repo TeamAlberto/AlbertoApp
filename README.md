@@ -42,3 +42,9 @@ run the api (optional)
 ```bash
 npm start
 ```
+
+## trouble shooting
+"something is complaining about compass"
+```bash
+(sudo) gem install compass
+```
