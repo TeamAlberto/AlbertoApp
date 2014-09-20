@@ -8,9 +8,7 @@ var config = {
     app: {
       name: 'albertoapp'
     },
-    port: 3000,
-    db: 'mongodb://localhost/albertoapp-development'
-    
+    port: 3000
   },
 
   test: {
@@ -18,9 +16,7 @@ var config = {
     app: {
       name: 'albertoapp'
     },
-    port: 3000,
-    db: 'mongodb://localhost/albertoapp-test'
-    
+    port: 3000
   },
 
   production: {
@@ -28,9 +24,7 @@ var config = {
     app: {
       name: 'albertoapp'
     },
-    port: 3000,
-    db: 'mongodb://localhost/albertoapp-production'
-    
+    port: 3000
   }
 };
 
