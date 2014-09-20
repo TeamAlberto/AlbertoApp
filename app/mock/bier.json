@@ -1,0 +1,79 @@
+{
+   "query":"bier",
+   "success":true,
+   "numResults":12,
+   "products":[
+      {
+         "id":801495,
+         "name":"Ah bsc pr lagerbier",
+         "image":"https://frahmework.ah.nl/!data/products/jpg/NASA801495-DATE12072013-EAN8717775816638.jpg",
+         "price":"0.52"
+      },
+      {
+         "id":792270,
+         "name":"Amstel bier 6bl",
+         "image":"https://frahmework.ah.nl/!data/products/jpg/NASA792270-DATE10092012-EAN8712000032050.jpg",
+         "price":"3.62"
+      },
+      {
+         "id":792271,
+         "name":"Amstel bier bl",
+         "image":"https://frahmework.ah.nl/!data/products/jpg/NASA792271-DATE04092013-EAN87120226.jpg",
+         "price":"0.68"
+      },
+      {
+         "id":521002,
+         "name":"Amstel bier bl",
+         "image":"https://frahmework.ah.nl/!data/products/jpg/NASA521002-DATE06032013-EAN87120332.jpg",
+         "price":"0.73"
+      },
+      {
+         "id":565011,
+         "name":"Amstel bier mono 12fl",
+         "image":"https://frahmework.ah.nl/!data/products/jpg/NASA565011-DATE12122012-EAN8712000023379.jpg",
+         "price":"6.88"
+      },
+      {
+         "id":562833,
+         "name":"Jupiler bier 6bl",
+         "image":"https://frahmework.ah.nl/!data/products/jpg/NASA562833-DATE13082013-EAN5410228150404.jpg",
+         "price":"6.13"
+      },
+      {
+         "id":751556,
+         "name":"Tyskie bier bl",
+         "image":"https://frahmework.ah.nl/!data/products/jpg/NASA751556-DATE12122012-EAN5901359000237.jpg",
+         "price":"1.12"
+      },
+      {
+         "id":99380,
+         "name":"Warsteiner bier bl",
+         "image":"https://frahmework.ah.nl/!data/products/jpg/NASA99380-DATE12122012-EAN4000856003404.jpg",
+         "price":"1.12"
+      },
+      {
+         "id":752014,
+         "name":"Bavaria 0,0 witbier 6fl",
+         "image":"https://frahmework.ah.nl/!data/products/jpg/NASA752014-DATE12042013-EAN8714800022354.jpg",
+         "price":"3.34"
+      },
+      {
+         "id":556236,
+         "name":"Bavaria 0,0% bier 6bl",
+         "image":"https://frahmework.ah.nl/!data/products/jpg/NASA556236-DATE03102013-EAN8714800025928.jpg",
+         "price":"2.96"
+      },
+      {
+         "id":800647,
+         "name":"Erdinger weissbier",
+         "image":"https://frahmework.ah.nl/!data/products/jpg/NASA800647-DATE29052013-EAN4002103000013.jpg",
+         "price":"1.90"
+      },
+      {
+         "id":69119,
+         "name":"Hoegaarden witbier 6fl",
+         "image":"https://frahmework.ah.nl/!data/products/jpg/NASA69119-DATE05032013-EAN5412421306015.jpg",
+         "price":"4.78"
+      }
+   ]
+}
