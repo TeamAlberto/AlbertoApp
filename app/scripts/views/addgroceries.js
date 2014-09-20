@@ -27,7 +27,7 @@ define([
         },
 
         initialize: function () {
-            this.cartItems = new Backbone.Collection();
+            this.cartItems = this.collection || new Backbone.Collection();
             var ItemsCollection = Backbone.Collection.extend({
                 parse: function(response) {
                     return response.products;
@@ -48,6 +48,7 @@ define([
         render: function () {
             this.$el.html(this.template(this.model.toJSON()));
             this.renderItems();
+            this.renderTotal();
             return this;
         },
 
@@ -62,7 +63,7 @@ define([
 
         renderTotal: function () {
             var totalPrice = this.cartItems.reduce(function(total, item){
-                return total + (item.get('price') * item.get('quantity'));
+                return total + (item.get('price') * item.get('basketQuantity'));
             }, 0);
             this.$('.price').text(totalPrice);
         },
@@ -76,8 +77,8 @@ define([
         },
 
         search: function (e) {
-            // this.searchItems.url = 'http://localhost:3000/search/'+ e.target.value;
-            this.searchItems.url = '/mock/bier.json';
+            this.searchItems.url = 'http://localhost:3000/search/'+ e.target.value;
+            // this.searchItems.url = '/mock/bier.json';
             this.fetchSearchItems();
         },
     });
