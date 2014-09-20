@@ -6,8 +6,9 @@ define([
     'backbone',
     'templates',
     'views/cart-item',
-    'app'
-], function ($, _, Backbone, JST, CartItemView, app) {
+    'app',
+    'collections/shopping-cart-items'
+], function ($, _, Backbone, JST, CartItemView, app, ShoppingCartItemsCollection) {
     'use strict';
 
     var AddgroceriesView = Backbone.View.extend({
@@ -27,7 +28,7 @@ define([
         },
 
         initialize: function () {
-            this.cartItems = this.collection || new Backbone.Collection();
+            this.cartItems = this.collection || new ShoppingCartItemsCollection();
             var ItemsCollection = Backbone.Collection.extend({
                 parse: function(response) {
                     return response.products;
@@ -53,19 +54,18 @@ define([
         },
 
         renderItems: function () {
-          console.log('rendering items');
             var $items = this.$('.items').empty();
             this.searchItems.each(function (item) {
                 var view = new CartItemView({model: item, collection: this.cartItems});
                 $items.append(view.render().el);
             }.bind(this));
+            if (!this.searchItems.length) {
+                $items.text('Start searching for items above...');
+            }
         },
 
         renderTotal: function () {
-            var totalPrice = this.cartItems.reduce(function(total, item){
-                return total + (item.get('price') * item.get('basketQuantity'));
-            }, 0);
-            this.$('.price').text(totalPrice);
+            this.$('.price').text(this.cartItems.groceryPrice());
         },
 
         toCart: function () {
