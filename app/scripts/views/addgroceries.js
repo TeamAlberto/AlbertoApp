@@ -76,7 +76,8 @@ define([
         },
 
         search: function (e) {
-            this.searchItems.url = 'http://localhost:3000/search/'+ e.target.value;
+            // this.searchItems.url = 'http://localhost:3000/search/'+ e.target.value;
+            this.searchItems.url = '/mock/bier.json';
             this.fetchSearchItems();
         },
     });
