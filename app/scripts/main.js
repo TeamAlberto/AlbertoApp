@@ -23,7 +23,7 @@ require([
     'views/addgroceries',
 ], function (Backbone, SplashView, ShoppingbasketView, AddgroceriesView) {
     Backbone.history.start();
-   	//var view = new SplashView();
-   	var view = new ShoppingbasketView();
+   	var view = new SplashView();
+   // 	var view = new ShoppingbasketView();
     $('body').html(view.render().el);
 });

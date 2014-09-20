@@ -27,14 +27,15 @@ define([
             this.cartItems = new Backbone.Collection();
             this.searchItems = new Backbone.Collection();
             this.fetchSearchItems = _.debounce(function () {
-                this.searchItems.add({
-                    name: 'Heineken 12 pack',
-                    image: 'http://deerparkpub.com/wp-content/uploads/2014/07/Heineken.jpg',
-                    price: 3.5,
-                });
-                // this.searchItems.fetch();
+                // this.searchItems.add({
+                //     name: 'Heineken 12 pack',
+                //     image: 'http://deerparkpub.com/wp-content/uploads/2014/07/Heineken.jpg',
+                //     price: 3.5,
+                // });
+                this.searchItems.fetch();
             }.bind(this), 300);
             this.model = new Backbone.Model({collection: this.searchItems});
+            window.x = this;
             this.listenTo(this.searchItems, 'reset', this.renderItems);
             this.listenTo(this.searchItems, 'add', this.renderItems);
             this.listenTo(this.searchItems, 'remove', this.renderItems);
@@ -55,7 +56,7 @@ define([
         },
 
         search: function (e) {
-            this.searchItems.url = 'http://localhost:3000/search?q='+ e.target.value;
+            this.searchItems.url = 'http://localhost:3000/mock/'+ e.target.value;
             this.fetchSearchItems();
         },
 
