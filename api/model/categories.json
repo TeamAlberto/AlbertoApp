@@ -532,9 +532,9 @@
 	"content": ["KG"],
 	"dimensions_available": "0%",
 	"average_dimensions": {
-		"width": ,
-		"height": null,
-		"depth": 0.0
+		"width": 10,
+		"height": 5,
+		"depth": 0.5
 	},
 	"weight": 0.0
 }, {
@@ -545,7 +545,7 @@
 	"average_dimensions": {
 		"width": 77.61016949152543,
 		"height": 225.4406779661017,
-		"depth": 0.0
+		"depth": 0.8
 	},
 	"weight": 0.0
 }, {
@@ -556,7 +556,7 @@
 	"average_dimensions": {
 		"width": 167.4,
 		"height": 241.6,
-		"depth": 0.0
+		"depth": 0.3
 	},
 	"weight": 0.0
 }, {
@@ -567,7 +567,7 @@
 	"average_dimensions": {
 		"width": 110.8913043478261,
 		"height": 181.52173913043478,
-		"depth": 0.0
+		"depth": 0.4
 	},
 	"weight": 0.0
 }, {
@@ -578,7 +578,7 @@
 	"average_dimensions": {
 		"width": 132.54166666666666,
 		"height": 174.44444444444446,
-		"depth": 0.0
+		"depth": 0.4
 	},
 	"weight": 0.0
 }, {
@@ -589,7 +589,7 @@
 	"average_dimensions": {
 		"width": 124.06603773584905,
 		"height": 163.80188679245282,
-		"depth": 0.0
+		"depth": 0.3
 	},
 	"weight": 0.0
 }, {
@@ -600,7 +600,7 @@
 	"average_dimensions": {
 		"width": 141.77551020408163,
 		"height": 163.0408163265306,
-		"depth": 0.0
+		"depth": 0.3
 	},
 	"weight": 0.0
 }, {
@@ -611,7 +611,7 @@
 	"average_dimensions": {
 		"width": 128.37209302325581,
 		"height": 102.09302325581395,
-		"depth": 0.0
+		"depth": 0.3
 	},
 	"weight": 0.0
 }, {
@@ -622,7 +622,7 @@
 	"average_dimensions": {
 		"width": 164.62121212121212,
 		"height": 153.54545454545453,
-		"depth": 0.0
+		"depth": 0.3
 	},
 	"weight": 0.0
 }, {
@@ -633,7 +633,7 @@
 	"average_dimensions": {
 		"width": 95.14285714285714,
 		"height": 192.71428571428572,
-		"depth": 0.0
+		"depth": 0.7
 	},
 	"weight": 0.0
 }, {
@@ -644,7 +644,7 @@
 	"average_dimensions": {
 		"width": 122.70833333333333,
 		"height": 169.125,
-		"depth": 0.0
+		"depth": 1
 	},
 	"weight": 0.0
 }, {
@@ -655,7 +655,7 @@
 	"average_dimensions": {
 		"width": 112.0576923076923,
 		"height": 221.84615384615384,
-		"depth": 0.0
+		"depth": 1
 	},
 	"weight": 0.0
 }, {
@@ -666,7 +666,7 @@
 	"average_dimensions": {
 		"width": 139.25974025974025,
 		"height": 176.46753246753246,
-		"depth": 0.0
+		"depth": 1
 	},
 	"weight": 0.0
 }, {
@@ -677,7 +677,7 @@
 	"average_dimensions": {
 		"width": 65.646408839779,
 		"height": 107.99447513812154,
-		"depth": 0.0
+		"depth": 1
 	},
 	"weight": 0.0
 }, {
@@ -688,7 +688,7 @@
 	"average_dimensions": {
 		"width": 109.97647058823529,
 		"height": 138.75294117647059,
-		"depth": 0.0
+		"depth": 0.4
 	},
 	"weight": 0.0
 }, {
@@ -699,7 +699,7 @@
 	"average_dimensions": {
 		"width": 96.12676056338029,
 		"height": 125.69014084507042,
-		"depth": 0.0
+		"depth": 0.5
 	},
 	"weight": 0.0
 }, {
@@ -710,7 +710,7 @@
 	"average_dimensions": {
 		"width": 90.95890410958904,
 		"height": 188.4794520547945,
-		"depth": 0.0
+		"depth": 1
 	},
 	"weight": 0.0
 }, {
@@ -721,7 +721,7 @@
 	"average_dimensions": {
 		"width": 57.227722772277225,
 		"height": 167.75247524752476,
-		"depth": 0.0
+		"depth": 1
 	},
 	"weight": 0.0
 }, {
@@ -732,7 +732,7 @@
 	"average_dimensions": {
 		"width": 77.22549019607843,
 		"height": 192.65686274509804,
-		"depth": 0.0
+		"depth": 0.9
 	},
 	"weight": 0.0
 }, {
@@ -743,7 +743,7 @@
 	"average_dimensions": {
 		"width": 109.98684210526316,
 		"height": 141.73684210526315,
-		"depth": 0.0
+		"depth": 0.7
 	},
 	"weight": 0.0
 }, {
@@ -752,9 +752,9 @@
 	"content": ["ST", "ML"],
 	"dimensions_available": "0%",
 	"average_dimensions": {
-		"width": null,
-		"height": null,
-		"depth": 0.0
+		"width": 50,
+		"height": 100,
+		"depth": 1
 	},
 	"weight": 0.0
 }, {
@@ -765,7 +765,7 @@
 	"average_dimensions": {
 		"width": 62.431654676258994,
 		"height": 165.28776978417267,
-		"depth": 0.0
+		"depth": 0.8
 	},
 	"weight": 0.0
 }, {
@@ -776,7 +776,7 @@
 	"average_dimensions": {
 		"width": 78.1969696969697,
 		"height": 133.27272727272728,
-		"depth": 0.0
+		"depth": 0.8
 	},
 	"weight": 0.0
 }, {
@@ -787,7 +787,7 @@
 	"average_dimensions": {
 		"width": null,
 		"height": null,
-		"depth": 0.0
+		"depth": 0.2
 	},
 	"weight": 0.0
 }, {
@@ -798,7 +798,7 @@
 	"average_dimensions": {
 		"width": 72.40287769784173,
 		"height": 188.0359712230216,
-		"depth": 0.0
+		"depth": 0.8
 	},
 	"weight": 0.0
 }, {
@@ -809,7 +809,7 @@
 	"average_dimensions": {
 		"width": 146.8148148148148,
 		"height": 199.09259259259258,
-		"depth": 0.0
+		"depth": 0.8
 	},
 	"weight": 0.0
 }, {
@@ -820,7 +820,7 @@
 	"average_dimensions": {
 		"width": 186.2596153846154,
 		"height": 185.40384615384616,
-		"depth": 0.0
+		"depth": 0.4
 	},
 	"weight": 0.0
 }, {
@@ -831,7 +831,7 @@
 	"average_dimensions": {
 		"width": 78.98876404494382,
 		"height": 295.80898876404495,
-		"depth": 0.0
+		"depth": 1
 	},
 	"weight": 0.0
 }, {
@@ -842,7 +842,7 @@
 	"average_dimensions": {
 		"width": 74.92957746478874,
 		"height": 252.29577464788733,
-		"depth": 0.0
+		"depth": 1
 	},
 	"weight": 0.0
 }, {
@@ -851,9 +851,9 @@
 	"content": ["LT"],
 	"dimensions_available": "0%",
 	"average_dimensions": {
-		"width": null,
-		"height": null,
-		"depth": 0.0
+		"width": 74.92957746478874,
+		"height": 252.29577464788733,
+		"depth": 1
 	},
 	"weight": 0.0
 }, {
@@ -862,9 +862,9 @@
 	"content": ["LT", "CL"],
 	"dimensions_available": "0%",
 	"average_dimensions": {
-		"width": null,
-		"height": null,
-		"depth": 0.0
+		"width": 74.92957746478874,
+		"height": 252.29577464788733,
+		"depth": 1
 	},
 	"weight": 0.0
 }, {
@@ -873,9 +873,9 @@
 	"content": ["LT"],
 	"dimensions_available": "0%",
 	"average_dimensions": {
-		"width": null,
-		"height": null,
-		"depth": 0.0
+		"width": 74.92957746478874,
+		"height": 252.29577464788733,
+		"depth": 1
 	},
 	"weight": 0.0
 }, {
@@ -884,9 +884,9 @@
 	"content": ["ML", "GR", "ST"],
 	"dimensions_available": "0%",
 	"average_dimensions": {
-		"width": null,
-		"height": null,
-		"depth": 0.0
+		"width": 100.92957746478874,
+		"height": 200.29577464788733,
+		"depth": 1
 	},
 	"weight": 0.0
 }, {
@@ -897,7 +897,7 @@
 	"average_dimensions": {
 		"width": 131.07142857142858,
 		"height": 163,
-		"depth": 0.0
+		"depth": 0.4
 	},
 	"weight": 0.0
 }, {
@@ -908,7 +908,7 @@
 	"average_dimensions": {
 		"width": 241.53333333333333,
 		"height": 102.33333333333333,
-		"depth": 0.0
+		"depth": 0.6
 	},
 	"weight": 0.0
 }, {
@@ -919,7 +919,7 @@
 	"average_dimensions": {
 		"width": 72.98113207547169,
 		"height": 182.96226415094338,
-		"depth": 0.0
+		"depth": 0.5
 	},
 	"weight": 0.0
 }, {
@@ -930,18 +930,7 @@
 	"average_dimensions": {
 		"width": 45.860759493670884,
 		"height": 156.16455696202533,
-		"depth": 0.0
-	},
-	"weight": 0.0
-}, {
-	"assgroepnr": 304,
-	"name": "Spelen",
-	"content": ["1N", "ST", "GR", "SE", "EA"],
-	"dimensions_available": "3%",
-	"average_dimensions": {
-		"width": 117.66666666666667,
-		"height": 191.16666666666666,
-		"depth": 0.0
+		"depth": 1
 	},
 	"weight": 0.0
 }, {
@@ -963,29 +952,7 @@
 	"average_dimensions": {
 		"width": 131.64864864864865,
 		"height": 274.05405405405406,
-		"depth": 0.0
-	},
-	"weight": 0.0
-}, {
-	"assgroepnr": 330,
-	"name": "Wenskaarten/kadoverpakking",
-	"content": ["EA", "ST", "SE", "RL"],
-	"dimensions_available": "45%",
-	"average_dimensions": {
-		"width": 12.117647058823529,
-		"height": 3.1862745098039214,
-		"depth": 0.0
-	},
-	"weight": 0.0
-}, {
-	"assgroepnr": 333,
-	"name": "HG Schoonmaakmiddelen",
-	"content": ["LT"],
-	"dimensions_available": "0%",
-	"average_dimensions": {
-		"width": null,
-		"height": null,
-		"depth": 0.0
+		"depth": 1
 	},
 	"weight": 0.0
 }, {
@@ -1007,7 +974,7 @@
 	"average_dimensions": {
 		"width": 77.64383561643835,
 		"height": 122.71917808219177,
-		"depth": 0.0
+		"depth": 0.5
 	},
 	"weight": 0.0
 }, {
@@ -1018,7 +985,7 @@
 	"average_dimensions": {
 		"width": 125.26530612244898,
 		"height": 173.73469387755102,
-		"depth": 0.0
+		"depth": 0.5
 	},
 	"weight": 0.0
 }, {
@@ -1029,7 +996,7 @@
 	"average_dimensions": {
 		"width": 136.84782608695653,
 		"height": 190.17391304347825,
-		"depth": 0.0
+		"depth": 0.8
 	},
 	"weight": 0.0
 }, {
@@ -1040,7 +1007,7 @@
 	"average_dimensions": {
 		"width": 64.37037037037037,
 		"height": 234.8148148148148,
-		"depth": 0.0
+		"depth": 1
 	},
 	"weight": 0.0
 }, {
@@ -1051,7 +1018,7 @@
 	"average_dimensions": {
 		"width": 102.69642857142857,
 		"height": 138.26785714285714,
-		"depth": 0.0
+		"depth": 0.8
 	},
 	"weight": 0.0
 }, {
@@ -1062,7 +1029,7 @@
 	"average_dimensions": {
 		"width": 74.33576642335767,
 		"height": 155.6058394160584,
-		"depth": 0.0
+		"depth": 0.9
 	},
 	"weight": 0.0
 }, {
@@ -1073,7 +1040,7 @@
 	"average_dimensions": {
 		"width": 90.28455284552845,
 		"height": 153.6829268292683,
-		"depth": 0.0
+		"depth": 0.9
 	},
 	"weight": 0.0
 }, {
@@ -1084,18 +1051,7 @@
 	"average_dimensions": {
 		"width": 150,
 		"height": 10,
-		"depth": 0.0
-	},
-	"weight": 0.0
-}, {
-	"assgroepnr": 371,
-	"name": "Ondergoed",
-	"content": ["ST", "SE", "PR", "EA", "BS", "1N", "LT"],
-	"dimensions_available": "0%",
-	"average_dimensions": {
-		"width": null,
-		"height": null,
-		"depth": 0.0
+		"depth": 0.3
 	},
 	"weight": 0.0
 }, {
@@ -1106,7 +1062,7 @@
 	"average_dimensions": {
 		"width": 137.51764705882354,
 		"height": 158.81176470588235,
-		"depth": 0.0
+		"depth": 0.5
 	},
 	"weight": 0.0
 }, {
@@ -1117,7 +1073,7 @@
 	"average_dimensions": {
 		"width": 148.27480916030535,
 		"height": 173.65648854961833,
-		"depth": 0.0
+		"depth": 0.4
 	},
 	"weight": 0.0
 }, {
@@ -1128,7 +1084,7 @@
 	"average_dimensions": {
 		"width": 215,
 		"height": 213.97619047619048,
-		"depth": 0.0
+		"depth": 0.4
 	},
 	"weight": 0.0
 }, {
@@ -1139,7 +1095,7 @@
 	"average_dimensions": {
 		"width": 150.13978494623655,
 		"height": 133.16129032258064,
-		"depth": 0.0
+		"depth": 0.4
 	},
 	"weight": 0.0
 }, {
@@ -1150,7 +1106,7 @@
 	"average_dimensions": {
 		"width": 241.68085106382978,
 		"height": 236.59574468085106,
-		"depth": 0.0
+		"depth": 0.2
 	},
 	"weight": 0.0
 }, {
@@ -1161,7 +1117,7 @@
 	"average_dimensions": {
 		"width": 58.5,
 		"height": 87.75,
-		"depth": 0.0
+		"depth": 0.5
 	},
 	"weight": 0.0
 }, {
@@ -1172,7 +1128,7 @@
 	"average_dimensions": {
 		"width": 99,
 		"height": 111.66666666666667,
-		"depth": 0.0
+		"depth": 0.2
 	},
 	"weight": 0.0
 }, {
@@ -1183,7 +1139,7 @@
 	"average_dimensions": {
 		"width": 112.29411764705883,
 		"height": 179.11764705882354,
-		"depth": 0.0
+		"depth": 0.3
 	},
 	"weight": 0.0
 }, {
@@ -1194,7 +1150,7 @@
 	"average_dimensions": {
 		"width": 120,
 		"height": 123.33333333333333,
-		"depth": 0.0
+		"depth": 0.9
 	},
 	"weight": 0.0
 }, {
@@ -1205,7 +1161,7 @@
 	"average_dimensions": {
 		"width": 125.71428571428571,
 		"height": 122.14285714285714,
-		"depth": 0.0
+		"depth": 0.9
 	},
 	"weight": 0.0
 }, {
@@ -1216,7 +1172,7 @@
 	"average_dimensions": {
 		"width": 111.76470588235294,
 		"height": 131.1764705882353,
-		"depth": 0.0
+		"depth": 0.9
 	},
 	"weight": 0.0
 }, {
@@ -1227,7 +1183,7 @@
 	"average_dimensions": {
 		"width": 154.375,
 		"height": 141.08333333333334,
-		"depth": 0.0
+		"depth": 0.9
 	},
 	"weight": 0.0
 }, {
@@ -1238,7 +1194,7 @@
 	"average_dimensions": {
 		"width": 101.66666666666667,
 		"height": 96,
-		"depth": 0.0
+		"depth": 0.9
 	},
 	"weight": 0.0
 }, {
@@ -1249,7 +1205,7 @@
 	"average_dimensions": {
 		"width": 281.53846153846155,
 		"height": 127.6923076923077,
-		"depth": 0.0
+		"depth": 0.9
 	},
 	"weight": 0.0
 }, {
@@ -1260,7 +1216,7 @@
 	"average_dimensions": {
 		"width": 59,
 		"height": 133.75,
-		"depth": 0.0
+		"depth": 0.9
 	},
 	"weight": 0.0
 }, {
@@ -1271,7 +1227,7 @@
 	"average_dimensions": {
 		"width": 110.55555555555556,
 		"height": 177.22222222222223,
-		"depth": 0.0
+		"depth": 0.8
 	},
 	"weight": 0.0
 }, {
@@ -1282,7 +1238,7 @@
 	"average_dimensions": {
 		"width": 132.94117647058823,
 		"height": 125.58823529411765,
-		"depth": 0.0
+		"depth": 0.9
 	},
 	"weight": 0.0
 }, {
@@ -1293,7 +1249,7 @@
 	"average_dimensions": {
 		"width": 103.76470588235294,
 		"height": 115.94117647058823,
-		"depth": 0.0
+		"depth": 0.9
 	},
 	"weight": 0.0
 }, {
@@ -1304,7 +1260,7 @@
 	"average_dimensions": {
 		"width": 431.25,
 		"height": 187.5,
-		"depth": 0.0
+		"depth": 0.2
 	},
 	"weight": 0.0
 }, {
@@ -1315,7 +1271,7 @@
 	"average_dimensions": {
 		"width": 144.44444444444446,
 		"height": 99.77777777777777,
-		"depth": 0.0
+		"depth": 0.9
 	},
 	"weight": 0.0
 }, {
@@ -1326,7 +1282,7 @@
 	"average_dimensions": {
 		"width": 175.71428571428572,
 		"height": 126.42857142857143,
-		"depth": 0.0
+		"depth": 0.9
 	},
 	"weight": 0.0
 }, {
@@ -1337,7 +1293,7 @@
 	"average_dimensions": {
 		"width": 218.92307692307693,
 		"height": 63.07692307692308,
-		"depth": 0.0
+		"depth": 0.3
 	},
 	"weight": 0.0
 }, {
@@ -1348,7 +1304,7 @@
 	"average_dimensions": {
 		"width": 85.05882352941177,
 		"height": 112.82352941176471,
-		"depth": 0.0
+		"depth": 0.4
 	},
 	"weight": 0.0
 }, {
@@ -1359,79 +1315,13 @@
 	"average_dimensions": {
 		"width": 140.26666666666668,
 		"height": 243.33333333333334,
-		"depth": 0.0
-	},
-	"weight": 0.0
-}, {
-	"assgroepnr": 613,
-	"name": "Kassakoeler zuivel",
-	"content": ["CL", "LT", "ML"],
-	"dimensions_available": "0%",
-	"average_dimensions": {
-		"width": null,
-		"height": null,
-		"depth": 0.0
+		"depth": 1
 	},
 	"weight": 0.0
 }, {
 	"assgroepnr": 614,
 	"name": "Kassakoeler",
 	"content": ["ML", "LT"],
-	"dimensions_available": "0%",
-	"average_dimensions": {
-		"width": null,
-		"height": null,
-		"depth": 0.0
-	},
-	"weight": 0.0
-}, {
-	"assgroepnr": 637,
-	"name": "B zuivel",
-	"content": ["GR"],
-	"dimensions_available": "0%",
-	"average_dimensions": {
-		"width": null,
-		"height": null,
-		"depth": 0.0
-	},
-	"weight": 0.0
-}, {
-	"assgroepnr": 652,
-	"name": "B Counter",
-	"content": ["ST"],
-	"dimensions_available": "0%",
-	"average_dimensions": {
-		"width": null,
-		"height": null,
-		"depth": 0.0
-	},
-	"weight": 0.0
-}, {
-	"assgroepnr": 729,
-	"name": "Cadeaukaarten",
-	"content": ["ST"],
-	"dimensions_available": "88%",
-	"average_dimensions": {
-		"width": 99.05714285714286,
-		"height": 136.42857142857142,
-		"depth": 0.0
-	},
-	"weight": 0.0
-}, {
-	"assgroepnr": 734,
-	"name": "Bad en bedtextiel",
-	"content": ["ST", "KG"],
-	"dimensions_available": "0%",
-	"average_dimensions": {
-		"width": null,
-		"height": null,
-		"depth": 0.0
-	},
-	"weight": 0.0
-}, {
-	"assgroepnr": 766,
-	"name": "hotcounter",
-	"content": ["ST"],
 	"dimensions_available": "0%",
 	"average_dimensions": {
 		"width": null,
@@ -1447,29 +1337,7 @@
 	"average_dimensions": {
 		"width": 71.36666666666666,
 		"height": 102.46666666666667,
-		"depth": 0.0
-	},
-	"weight": 0.0
-}, {
-	"assgroepnr": 841,
-	"name": "modules sorbo",
-	"content": ["ST", "EA"],
-	"dimensions_available": "0%",
-	"average_dimensions": {
-		"width": null,
-		"height": null,
-		"depth": 0.0
-	},
-	"weight": 0.0
-}, {
-	"assgroepnr": 860,
-	"name": "Wholefoods",
-	"content": ["GR", "ML"],
-	"dimensions_available": "0%",
-	"average_dimensions": {
-		"width": null,
-		"height": null,
-		"depth": 0.0
+		"depth": 0.8
 	},
 	"weight": 0.0
 }, {
@@ -1480,29 +1348,7 @@
 	"average_dimensions": {
 		"width": 191.2922077922078,
 		"height": 149.80519480519482,
-		"depth": 0.0
-	},
-	"weight": 0.0
-}, {
-	"assgroepnr": 913,
-	"name": "G&S Grill",
-	"content": ["KG"],
-	"dimensions_available": "0%",
-	"average_dimensions": {
-		"width": null,
-		"height": null,
-		"depth": 0.0
-	},
-	"weight": 0.0
-}, {
-	"assgroepnr": 950,
-	"name": "Premiums diversen",
-	"content": ["ST"],
-	"dimensions_available": "0%",
-	"average_dimensions": {
-		"width": null,
-		"height": null,
-		"depth": 0.0
+		"depth": 0.5
 	},
 	"weight": 0.0
 }]
