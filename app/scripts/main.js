@@ -13,23 +13,28 @@ require.config({
         backbone: '../bower_components/backbone/backbone',
         underscore: '../bower_components/lodash/dist/lodash.compat',
         bootstrap: '../bower_components/sass-bootstrap/dist/js/bootstrap',
-        async: '../bower_components/requirejs-plugins/src/async'
+        async: '../bower_components/requirejs-plugins/src/async',
+        app: './app'
     }
 });
 
 require([
     'backbone',
-    'views/splash',
-    'views/shoppingbasket',
-    'views/addgroceries',
-    'views/geolocation',
-    'views/payment',
-    'views/findcourier',
-    'views/trackcourier',
-    'views/delivery',
-], function (Backbone, SplashView, ShoppingbasketView, AddgroceriesView, GeolocationView, PaymentView, FindcourierView, TrackcourierView, DeliveryView) {
+    'app',
+    'events',
+    // 'views/splash',
+    // 'views/shoppingbasket',
+    // 'views/addgroceries',
+    // 'views/geolocation',
+    // 'views/payment',
+    // 'views/findcourier',
+    // 'views/trackcourier',
+    // 'views/delivery',
+], function (Backbone, app) {
+    console.log('main');
     Backbone.history.start();
-   	var view = new TrackcourierView();
-    $('body').html(view.render().el);
-    view.loadMap($("#map").get(0));
+    app.vent.trigger('splash:show');
+   // 	var view = new SplashView();
+    // $('body').html(view.render().el);
+    // view.loadMap($("#map").get(0));
 });
