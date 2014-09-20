@@ -19,10 +19,12 @@ require.config({
 require([
     'backbone', 
     'views/splash',
+    'views/shoppingbasket',
     'views/addgroceries',
-], function (Backbone, SplashView, AddgroceriesView) {
+], function (Backbone, SplashView, ShoppingbasketView, AddgroceriesView) {
     Backbone.history.start();
-    var view = new SplashView();
+   	//var view = new SplashView();
+   	var view = new ShoppingbasketView();
     $('body').html(view.render().el);
 
 });

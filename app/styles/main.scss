@@ -89,3 +89,20 @@ body {
         border-bottom: 0;
     }
 }
+
+.screen {
+	position:relative;
+	width:320px;
+	height:528px;
+}
+
+.align-bottom {
+	position: absolute;
+	bottom:0px;
+	width:100%;
+	text-align:center;
+}
+
+.list-group-item {
+	overflow:auto;
+} 
