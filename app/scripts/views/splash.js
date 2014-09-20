@@ -5,8 +5,8 @@ define([
     'underscore',
     'backbone',
     'templates',
-    'views/addgroceries'
-], function ($, _, Backbone, JST, AddgroceriesView) {
+    'app'
+], function ($, _, Backbone, JST, app) {
     'use strict';
 
     var SplashView = Backbone.View.extend({
@@ -34,13 +34,11 @@ define([
         },
 
         renderConsumer: function () {
-            console.log('cart');
-            this.$el.replaceWith((new AddgroceriesView()).render().el);
+            app.vent.trigger('addgroceries:show');
         },
 
         renderCourier: function () {
-            console.log('courier');
-            this.$el.replaceWith((new CartView()).render().el);
+            app.vent.trigger('courier:show');
         }
     });
 
