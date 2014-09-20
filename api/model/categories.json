@@ -30,7 +30,7 @@
 		"height": 125.20769230769231,
 		"depth": 0.1
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 4,
 	"name": "Visconserven",
@@ -52,7 +52,7 @@
 		"height": 115.47916666666667,
 		"depth": 1.0
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 7,
 	"name": "Babyvoeding",
@@ -63,7 +63,7 @@
 		"height": 135.31791907514452,
 		"depth": 0.9
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 8,
 	"name": "Koffie & Thee",
@@ -74,7 +74,7 @@
 		"height": 141.32512315270935,
 		"depth": 0.5
 	},
-	"weight": 0.0
+	"weight": 900
 }, {
 	"assgroepnr": 9,
 	"name": "Drink Zuivel",
@@ -85,7 +85,7 @@
 		"height": 214.5974025974026,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 10,
 	"name": "Eet Zuivel",
@@ -96,7 +96,7 @@
 		"height": 125.51904761904763,
 		"depth": 0.7
 	},
-	"weight": 0.0
+	"weight": 800
 }, {
 	"assgroepnr": 11,
 	"name": "Koffiemelk",
@@ -107,7 +107,7 @@
 		"height": 160.65714285714284,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 12,
 	"name": "Rode wijn",
@@ -118,7 +118,7 @@
 		"height": 294.7479674796748,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 14,
 	"name": "Frisdranken overig",
@@ -129,7 +129,7 @@
 		"height": 236.07865168539325,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 15,
 	"name": "Vruchtensappen",
@@ -140,7 +140,7 @@
 		"height": 193.5,
 		"depth": 0.8
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 16,
 	"name": "Chips & Zoutjes",
@@ -162,7 +162,7 @@
 		"height": 118.42528735632185,
 		"depth": 0.9
 	},
-	"weight": 0.0
+	"weight": 100
 }, {
 	"assgroepnr": 18,
 	"name": "Suikerwerk",
@@ -173,7 +173,7 @@
 		"height": 165.32692307692307,
 		"depth": 0.4
 	},
-	"weight": 0.0
+	"weight": 600
 }, {
 	"assgroepnr": 19,
 	"name": "Chocolade",
@@ -195,7 +195,7 @@
 		"height": 132.72727272727272,
 		"depth": 0.5
 	},
-	"weight": 0.0
+	"weight": 600
 }, {
 	"assgroepnr": 22,
 	"name": "Soepen",
@@ -206,7 +206,7 @@
 		"height": 148.55555555555554,
 		"depth": 0.4
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 23,
 	"name": "Pasta",
@@ -217,7 +217,7 @@
 		"height": 169.62121212121212,
 		"depth": 0.4
 	},
-	"weight": 0.0
+	"weight": 800
 }, {
 	"assgroepnr": 25,
 	"name": "Suiker",
@@ -228,7 +228,7 @@
 		"height": 148.29166666666666,
 		"depth": 0.7
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 27,
 	"name": "Bakprodukten",
@@ -239,7 +239,7 @@
 		"height": 144.0229007633588,
 		"depth": 0.6
 	},
-	"weight": 0.0
+	"weight": 900
 }, {
 	"assgroepnr": 28,
 	"name": "Houdbare Zuivel",
@@ -250,7 +250,7 @@
 		"height": 172.47368421052633,
 		"depth": 0.6
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 29,
 	"name": "Wasmiddelen",
@@ -261,7 +261,7 @@
 		"height": 229.6611570247934,
 		"depth": 0.5
 	},
-	"weight": 0.0
+	"weight": 100
 }, {
 	"assgroepnr": 30,
 	"name": "Schoonmaak artikelen",
@@ -272,7 +272,7 @@
 		"height": 222.14666666666668,
 		"depth": 0.4
 	},
-	"weight": 0.0
+	"weight": 950
 }, {
 	"assgroepnr": 31,
 	"name": "Dierenvoeding Kat",
@@ -283,51 +283,7 @@
 		"height": 159.11023622047244,
 		"depth": 0.4
 	},
-	"weight": 0.0
-}, {
-	"assgroepnr": 33,
-	"name": "Papierwaren",
-	"content": ["RL", "ST"],
-	"dimensions_available": "55%",
-	"average_dimensions": {
-		"width": 239.12820512820514,
-		"height": 162.6153846153846,
-		"depth": 0.4
-	},
-	"weight": 0.0
-}, {
-	"assgroepnr": 34,
-	"name": "Basis Non Food",
-	"content": ["ST", "MT", "EA", "ML", "GR"],
-	"dimensions_available": "42%",
-	"average_dimensions": {
-		"width": 122.27659574468085,
-		"height": 100.07446808510639,
-		"depth": 0.7
-	},
-	"weight": 0.0
-}, {
-	"assgroepnr": 36,
-	"name": "Speciale Voeding",
-	"content": ["ST", "GR", "EA", "ML", "LT", "1N"],
-	"dimensions_available": "62%",
-	"average_dimensions": {
-		"width": 88,
-		"height": 127.16233766233766,
-		"depth": 0.7
-	},
-	"weight": 0.0
-}, {
-	"assgroepnr": 39,
-	"name": "Beenmode",
-	"content": ["PR", "ST", "EA", "GR"],
-	"dimensions_available": "10%",
-	"average_dimensions": {
-		"width": 88.41935483870968,
-		"height": 218.74193548387098,
-		"depth": 0.2
-	},
-	"weight": 0.0
+	"weight": 700
 }, {
 	"assgroepnr": 44,
 	"name": "Tussendoortjes",
@@ -338,7 +294,7 @@
 		"height": 122.8125,
 		"depth": 0.3
 	},
-	"weight": 0.0
+	"weight": 700
 }, {
 	"assgroepnr": 47,
 	"name": "Borrel",
@@ -360,7 +316,7 @@
 		"height": 90,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 100
 }, {
 	"assgroepnr": 52,
 	"name": "Deli bediening",
@@ -382,7 +338,7 @@
 		"height": 93.12903225806451,
 		"depth": 0.8
 	},
-	"weight": 0.0
+	"weight": 800
 }, {
 	"assgroepnr": 56,
 	"name": "Eieren",
@@ -393,7 +349,7 @@
 		"height": 69.9090909090909,
 		"depth": 0.2
 	},
-	"weight": 0.0
+	"weight": 500
 }, {
 	"assgroepnr": 58,
 	"name": "Gevogelte zb",
@@ -404,7 +360,7 @@
 		"height": 164.37777777777777,
 		"depth": 0.5
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 59,
 	"name": "Tabak",
@@ -415,7 +371,7 @@
 		"height": 90.43262411347517,
 		"depth": 0.4
 	},
-	"weight": 0.0
+	"weight": 40
 }, {
 	"assgroepnr": 84,
 	"name": "Kaas ZB",
@@ -437,7 +393,7 @@
 		"height": 244.03703703703704,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 86,
 	"name": "Rookworst",
@@ -448,7 +404,7 @@
 		"height": 164,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 400
 }, {
 	"assgroepnr": 87,
 	"name": "Tijdschriften",
@@ -459,7 +415,7 @@
 		"height": 25,
 		"depth": 0.03
 	},
-	"weight": 0.0
+	"weight": 1200
 }, {
 	"assgroepnr": 91,
 	"name": "Fruit Wand",
@@ -470,7 +426,7 @@
 		"height": 161.52380952380952,
 		"depth": 0.4
 	},
-	"weight": 0.0
+	"weight": 400
 }, {
 	"assgroepnr": 92,
 	"name": "Groenten Wand",
@@ -481,7 +437,7 @@
 		"height": 145.4,
 		"depth": 0.4
 	},
-	"weight": 0.0
+	"weight": 400
 }, {
 	"assgroepnr": 105,
 	"name": "Aardappelen",
@@ -492,7 +448,7 @@
 		"height": 203.42105263157896,
 		"depth": 0.3
 	},
-	"weight": 0.0
+	"weight": 800
 }, {
 	"assgroepnr": 115,
 	"name": "Kookgemak",
@@ -514,7 +470,7 @@
 		"height": 148.37956204379563,
 		"depth": 0.3
 	},
-	"weight": 0.0
+	"weight": 900
 }, {
 	"assgroepnr": 122,
 	"name": "Salades ZB",
@@ -525,7 +481,7 @@
 		"height": 105.06060606060606,
 		"depth": 0.3
 	},
-	"weight": 0.0
+	"weight": 50
 }, {
 	"assgroepnr": 123,
 	"name": "Nieuw wereld agf",
@@ -536,7 +492,7 @@
 		"height": 5,
 		"depth": 0.5
 	},
-	"weight": 0.0
+	"weight": 50
 }, {
 	"assgroepnr": 125,
 	"name": "Gekoelde sappen",
@@ -547,7 +503,7 @@
 		"height": 225.4406779661017,
 		"depth": 0.8
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 127,
 	"name": "Cereals",
@@ -558,7 +514,7 @@
 		"height": 241.6,
 		"depth": 0.3
 	},
-	"weight": 0.0
+	"weight": 300
 }, {
 	"assgroepnr": 128,
 	"name": "Rijst",
@@ -569,7 +525,7 @@
 		"height": 181.52173913043478,
 		"depth": 0.4
 	},
-	"weight": 0.0
+	"weight": 800
 }, {
 	"assgroepnr": 131,
 	"name": "Dierenvoeding Hond",
@@ -591,7 +547,7 @@
 		"height": 163.80188679245282,
 		"depth": 0.3
 	},
-	"weight": 0.0
+	"weight": 400
 }, {
 	"assgroepnr": 141,
 	"name": "Seizoenfood",
@@ -602,7 +558,7 @@
 		"height": 163.0408163265306,
 		"depth": 0.3
 	},
-	"weight": 0.0
+	"weight": 700
 }, {
 	"assgroepnr": 142,
 	"name": "Verse Noten",
@@ -613,7 +569,7 @@
 		"height": 102.09302325581395,
 		"depth": 0.3
 	},
-	"weight": 0.0
+	"weight": 300
 }, {
 	"assgroepnr": 160,
 	"name": "Verse Vis ZB",
@@ -624,7 +580,7 @@
 		"height": 153.54545454545453,
 		"depth": 0.3
 	},
-	"weight": 0.0
+	"weight": 800
 }, {
 	"assgroepnr": 164,
 	"name": "Gesteriliseerde Melk",
@@ -635,7 +591,7 @@
 		"height": 192.71428571428572,
 		"depth": 0.7
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 179,
 	"name": "Speciaal Bier",
@@ -646,7 +602,7 @@
 		"height": 169.125,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 214,
 	"name": "Cola",
@@ -657,7 +613,7 @@
 		"height": 221.84615384615384,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 216,
 	"name": "Bier Pils",
@@ -668,7 +624,7 @@
 		"height": 176.46753246753246,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 226,
 	"name": "Kruiden Specerijen",
@@ -679,7 +635,7 @@
 		"height": 107.99447513812154,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 700
 }, {
 	"assgroepnr": 227,
 	"name": "Wereldkeuken",
@@ -690,7 +646,7 @@
 		"height": 138.75294117647059,
 		"depth": 0.4
 	},
-	"weight": 0.0
+	"weight": 400
 }, {
 	"assgroepnr": 235,
 	"name": "Warm Tussendoor",
@@ -712,7 +668,7 @@
 		"height": 188.4794520547945,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 400
 }, {
 	"assgroepnr": 238,
 	"name": "Mondhygiene",
@@ -723,7 +679,7 @@
 		"height": 167.75247524752476,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 600
 }, {
 	"assgroepnr": 240,
 	"name": "Bad & Douche & Zeep",
@@ -734,7 +690,7 @@
 		"height": 192.65686274509804,
 		"depth": 0.9
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 242,
 	"name": "Periodeverzorging",
@@ -745,7 +701,7 @@
 		"height": 141.73684210526315,
 		"depth": 0.7
 	},
-	"weight": 0.0
+	"weight": 50
 }, {
 	"assgroepnr": 243,
 	"name": "Geuren",
@@ -756,7 +712,7 @@
 		"height": 100,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 800
 }, {
 	"assgroepnr": 244,
 	"name": "Styling",
@@ -767,7 +723,7 @@
 		"height": 165.28776978417267,
 		"depth": 0.8
 	},
-	"weight": 0.0
+	"weight": 800
 }, {
 	"assgroepnr": 245,
 	"name": "Huid & Overig",
@@ -778,7 +734,7 @@
 		"height": 133.27272727272728,
 		"depth": 0.8
 	},
-	"weight": 0.0
+	"weight": 800
 }, {
 	"assgroepnr": 248,
 	"name": "Haarmode",
@@ -800,7 +756,7 @@
 		"height": 188.0359712230216,
 		"depth": 0.8
 	},
-	"weight": 0.0
+	"weight": 900
 }, {
 	"assgroepnr": 254,
 	"name": "Babyluiers & Verzorging",
@@ -811,7 +767,7 @@
 		"height": 199.09259259259258,
 		"depth": 0.8
 	},
-	"weight": 0.0
+	"weight": 600
 }, {
 	"assgroepnr": 256,
 	"name": "Maaltijdgemak",
@@ -822,7 +778,7 @@
 		"height": 185.40384615384616,
 		"depth": 0.4
 	},
-	"weight": 0.0
+	"weight": 350
 }, {
 	"assgroepnr": 258,
 	"name": "Witte wijn & rose",
@@ -833,7 +789,7 @@
 		"height": 295.80898876404495,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 259,
 	"name": "Aperitieven & mixdranken",
@@ -844,7 +800,7 @@
 		"height": 252.29577464788733,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 260,
 	"name": "Aperitieven",
@@ -855,7 +811,7 @@
 		"height": 252.29577464788733,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 262,
 	"name": "Topwijn",
@@ -866,7 +822,7 @@
 		"height": 252.29577464788733,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 263,
 	"name": "Topwijnen wit",
@@ -877,7 +833,7 @@
 		"height": 252.29577464788733,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 264,
 	"name": "Grab & Go",
@@ -888,7 +844,7 @@
 		"height": 200.29577464788733,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 200
 }, {
 	"assgroepnr": 285,
 	"name": "Aardappel, pasta, rijst",
@@ -899,7 +855,7 @@
 		"height": 163,
 		"depth": 0.4
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 287,
 	"name": "Gekoeld brood hartig",
@@ -910,7 +866,7 @@
 		"height": 102.33333333333333,
 		"depth": 0.6
 	},
-	"weight": 0.0
+	"weight": 60
 }, {
 	"assgroepnr": 290,
 	"name": "Scheren",
@@ -921,7 +877,7 @@
 		"height": 182.96226415094338,
 		"depth": 0.5
 	},
-	"weight": 0.0
+	"weight": 300
 }, {
 	"assgroepnr": 291,
 	"name": "Deodorant",
@@ -932,7 +888,7 @@
 		"height": 156.16455696202533,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 100
 }, {
 	"assgroepnr": 311,
 	"name": "Feestartikelen",
@@ -943,7 +899,7 @@
 		"height": 197.6,
 		"depth": 0.0
 	},
-	"weight": 0.0
+	"weight": 100
 }, {
 	"assgroepnr": 314,
 	"name": "Water",
@@ -954,7 +910,7 @@
 		"height": 274.05405405405406,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 337,
 	"name": "Oosterse maaltijdcomponenten",
@@ -965,7 +921,7 @@
 		"height": 149.15923566878982,
 		"depth": 0.0
 	},
-	"weight": 0.0
+	"weight": 400
 }, {
 	"assgroepnr": 338,
 	"name": "Mediterrane maaltijdcomp",
@@ -976,7 +932,7 @@
 		"height": 122.71917808219177,
 		"depth": 0.5
 	},
-	"weight": 0.0
+	"weight": 400
 }, {
 	"assgroepnr": 339,
 	"name": "Basis Internat maaltijdcomp",
@@ -987,7 +943,7 @@
 		"height": 173.73469387755102,
 		"depth": 0.5
 	},
-	"weight": 0.0
+	"weight": 400
 }, {
 	"assgroepnr": 348,
 	"name": "Schoonmaakbenodigdheden",
@@ -998,7 +954,7 @@
 		"height": 190.17391304347825,
 		"depth": 0.8
 	},
-	"weight": 0.0
+	"weight": 800
 }, {
 	"assgroepnr": 350,
 	"name": "Olie & Azijn",
@@ -1009,7 +965,7 @@
 		"height": 234.8148148148148,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 352,
 	"name": "Zuren & Frituurvetten",
@@ -1020,7 +976,7 @@
 		"height": 138.26785714285714,
 		"depth": 0.8
 	},
-	"weight": 0.0
+	"weight": 1000
 }, {
 	"assgroepnr": 354,
 	"name": "Snacksauzen",
@@ -1031,7 +987,7 @@
 		"height": 155.6058394160584,
 		"depth": 0.9
 	},
-	"weight": 0.0
+	"weight": 900
 }, {
 	"assgroepnr": 356,
 	"name": "Groente & Vleessauzen",
@@ -1042,7 +998,7 @@
 		"height": 153.6829268292683,
 		"depth": 0.9
 	},
-	"weight": 0.0
+	"weight": 900
 }, {
 	"assgroepnr": 359,
 	"name": "Service artikelen counter",
@@ -1053,7 +1009,7 @@
 		"height": 10,
 		"depth": 0.3
 	},
-	"weight": 0.0
+	"weight": 300
 }, {
 	"assgroepnr": 382,
 	"name": "Diepvries Snacks",
@@ -1064,7 +1020,7 @@
 		"height": 158.81176470588235,
 		"depth": 0.5
 	},
-	"weight": 0.0
+	"weight": 700
 }, {
 	"assgroepnr": 385,
 	"name": "Diepvries Maaltijdcomponenten",
@@ -1075,7 +1031,7 @@
 		"height": 173.65648854961833,
 		"depth": 0.4
 	},
-	"weight": 0.0
+	"weight": 700
 }, {
 	"assgroepnr": 386,
 	"name": "Diepvries Aardappelproducten",
@@ -1086,7 +1042,7 @@
 		"height": 213.97619047619048,
 		"depth": 0.4
 	},
-	"weight": 0.0
+	"weight": 700
 }, {
 	"assgroepnr": 391,
 	"name": "Diepvries IJs/Gebak",
@@ -1097,7 +1053,7 @@
 		"height": 133.16129032258064,
 		"depth": 0.4
 	},
-	"weight": 0.0
+	"weight": 700
 }, {
 	"assgroepnr": 394,
 	"name": "Diepvries Pizza's",
@@ -1108,7 +1064,7 @@
 		"height": 236.59574468085106,
 		"depth": 0.2
 	},
-	"weight": 0.0
+	"weight": 300
 }, {
 	"assgroepnr": 404,
 	"name": "Batterijen counter",
@@ -1119,7 +1075,7 @@
 		"height": 87.75,
 		"depth": 0.5
 	},
-	"weight": 0.0
+	"weight": 1200
 }, {
 	"assgroepnr": 406,
 	"name": "Scheermesjes tbv assgr 290",
@@ -1130,7 +1086,7 @@
 		"height": 111.66666666666667,
 		"depth": 0.2
 	},
-	"weight": 0.0
+	"weight": 150
 }, {
 	"assgroepnr": 408,
 	"name": "Kantoor",
@@ -1141,7 +1097,7 @@
 		"height": 179.11764705882354,
 		"depth": 0.3
 	},
-	"weight": 0.0
+	"weight": 500
 }, {
 	"assgroepnr": 500,
 	"name": "Witbrood",
@@ -1152,7 +1108,7 @@
 		"height": 123.33333333333333,
 		"depth": 0.9
 	},
-	"weight": 0.0
+	"weight": 50
 }, {
 	"assgroepnr": 502,
 	"name": "Bruinbrood",
@@ -1163,7 +1119,7 @@
 		"height": 122.14285714285714,
 		"depth": 0.9
 	},
-	"weight": 0.0
+	"weight": 50
 }, {
 	"assgroepnr": 504,
 	"name": "Volkorenbrood",
@@ -1174,7 +1130,7 @@
 		"height": 131.1764705882353,
 		"depth": 0.9
 	},
-	"weight": 0.0
+	"weight": 50
 }, {
 	"assgroepnr": 508,
 	"name": "Gevuld brood",
@@ -1185,7 +1141,7 @@
 		"height": 141.08333333333334,
 		"depth": 0.9
 	},
-	"weight": 0.0
+	"weight": 50
 }, {
 	"assgroepnr": 510,
 	"name": "Kleinbrood",
@@ -1196,7 +1152,7 @@
 		"height": 96,
 		"depth": 0.9
 	},
-	"weight": 0.0
+	"weight": 50
 }, {
 	"assgroepnr": 512,
 	"name": "Kort houdbaar brood",
@@ -1207,7 +1163,7 @@
 		"height": 127.6923076923077,
 		"depth": 0.9
 	},
-	"weight": 0.0
+	"weight": 50
 }, {
 	"assgroepnr": 514,
 	"name": "Gekoeld brood zoet",
@@ -1218,7 +1174,7 @@
 		"height": 133.75,
 		"depth": 0.9
 	},
-	"weight": 0.0
+	"weight": 50
 }, {
 	"assgroepnr": 518,
 	"name": "Luxe banket",
@@ -1229,7 +1185,7 @@
 		"height": 177.22222222222223,
 		"depth": 0.8
 	},
-	"weight": 0.0
+	"weight": 50
 }, {
 	"assgroepnr": 520,
 	"name": "BO grootbrood",
@@ -1240,7 +1196,7 @@
 		"height": 125.58823529411765,
 		"depth": 0.9
 	},
-	"weight": 0.0
+	"weight": 50
 }, {
 	"assgroepnr": 522,
 	"name": "BO kleinbrood",
@@ -1251,7 +1207,7 @@
 		"height": 115.94117647058823,
 		"depth": 0.9
 	},
-	"weight": 0.0
+	"weight": 50
 }, {
 	"assgroepnr": 524,
 	"name": "BO stokbrood",
@@ -1262,7 +1218,7 @@
 		"height": 187.5,
 		"depth": 0.2
 	},
-	"weight": 0.0
+	"weight": 50
 }, {
 	"assgroepnr": 526,
 	"name": "BO banket zoet",
@@ -1273,7 +1229,7 @@
 		"height": 99.77777777777777,
 		"depth": 0.9
 	},
-	"weight": 0.0
+	"weight": 50
 }, {
 	"assgroepnr": 528,
 	"name": "BO banket hartig",
@@ -1284,7 +1240,7 @@
 		"height": 126.42857142857143,
 		"depth": 0.9
 	},
-	"weight": 0.0
+	"weight": 60
 }, {
 	"assgroepnr": 538,
 	"name": "vers Gebak ZB",
@@ -1295,7 +1251,7 @@
 		"height": 63.07692307692308,
 		"depth": 0.3
 	},
-	"weight": 0.0
+	"weight": 200
 }, {
 	"assgroepnr": 545,
 	"name": "Kaas ongekoeld",
@@ -1306,7 +1262,7 @@
 		"height": 112.82352941176471,
 		"depth": 0.4
 	},
-	"weight": 0.0
+	"weight": 900
 }, {
 	"assgroepnr": 546,
 	"name": "Deli droge worst",
@@ -1317,7 +1273,7 @@
 		"height": 243.33333333333334,
 		"depth": 1
 	},
-	"weight": 0.0
+	"weight": 800
 }, {
 	"assgroepnr": 614,
 	"name": "Kassakoeler",
