@@ -51,9 +51,9 @@ define([
           console.log('rendering items');
             var $items = this.$('.items').empty();
             this.searchItems.each(function (item) {
-                var view = new CartItemView({model: item});
+                var view = new CartItemView({model: item, collection: this.cartItems});
                 $items.append(view.render().el);
-            });
+            }.bind(this));
         },
 
         search: function (e) {

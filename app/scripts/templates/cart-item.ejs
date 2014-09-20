@@ -1,3 +1,9 @@
 <h1><%= name %></h1>
 <p><%= price %></p>
 <img src="<%= image %>" style="max-height: 200px" />
+<p>
+  <button class="btn add-cart">+</button>
+  <% if (typeof quantity !== "undefined") { %>
+    (<%= quantity %>)
+  <% } %>
+</p>
