@@ -17,7 +17,7 @@ require.config({
 });
 
 require([
-    'backbone', 
+    'backbone',
     'views/splash',
     'views/shoppingbasket',
     'views/addgroceries',
@@ -26,5 +26,4 @@ require([
    	//var view = new SplashView();
    	var view = new ShoppingbasketView();
     $('body').html(view.render().el);
-
 });
