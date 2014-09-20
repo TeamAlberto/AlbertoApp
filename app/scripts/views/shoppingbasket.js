@@ -5,8 +5,9 @@ define([
     'underscore',
     'backbone',
     'templates',
-    'app'
-], function ($, _, Backbone, JST, app) {
+    'app',
+    'views/cart-item',
+], function ($, _, Backbone, JST, app, CartItemView) {
     'use strict';
 
     var ShoppingbasketView = Backbone.View.extend({
@@ -24,12 +25,11 @@ define([
         },
 
         initialize: function () {
-        	this.model = new Backbone.Model();
-            this.listenTo(this.model, 'change', this.render);
+            this.listenTo(this.collection, 'all', this.render);
         },
 
         previous: function () {
-          app.vent.trigger('addgroceries:show');
+          app.vent.trigger('addgroceries:show', this.collection);
         },
 
         next: function () {
@@ -78,10 +78,19 @@ define([
             }, 0);
         },
 
+        renderItems: function () {
+            var $items = this.$('.items').empty();
+            this.collection.each(function (item) {
+                var view = new CartItemView({model: item, collection: this.collection});
+                $items.append(view.render().el);
+            }.bind(this));
+        },
+
         render: function () {
-            this.$el.html(this.template(this.model.toJSON()));
+            this.$el.html(this.template());
             this.$('.bike-type').text(this.transportType());
             this.renderCosts();
+            this.renderItems();
             return this;
         }
     });

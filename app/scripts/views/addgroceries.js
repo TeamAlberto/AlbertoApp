@@ -27,7 +27,7 @@ define([
         },
 
         initialize: function () {
-            this.cartItems = new Backbone.Collection();
+            this.cartItems = this.collection || new Backbone.Collection();
             var ItemsCollection = Backbone.Collection.extend({
                 parse: function(response) {
                     return response.products;
@@ -48,6 +48,7 @@ define([
         render: function () {
             this.$el.html(this.template(this.model.toJSON()));
             this.renderItems();
+            this.renderTotal();
             return this;
         },
 
