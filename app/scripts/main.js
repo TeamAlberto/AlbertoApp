@@ -17,12 +17,11 @@ require.config({
 });
 
 require([
-    'backbone', 
+    'backbone',
     'views/splash',
     'views/addgroceries',
 ], function (Backbone, SplashView, AddgroceriesView) {
     Backbone.history.start();
     var view = new SplashView();
     $('body').html(view.render().el);
-
 });
