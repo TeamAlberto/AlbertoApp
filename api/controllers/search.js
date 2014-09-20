@@ -157,11 +157,10 @@ router.get('/search/:query', function (req, res, next) {
         if (product.artikelomschrijving &&
             product.imageid &&
             product.imageid != "noimage" &&
-            product.breedte && product.hoogte &&
             product.huidigeprijs &&
             product.inhoud &&
             product.huidigevoorraad > 0 &&
-            nameRegexp.test(product.artikelomschrijving)
+            (nameRegexp.test(product.artikelomschrijving) || product.artikelomschrijving.indexOf(req.params.query) === 0)
             ) {
 
           var name = product.artikelomschrijving;
@@ -169,16 +168,19 @@ router.get('/search/:query', function (req, res, next) {
 
           var dimensions = getProductDimensions(product);
 
+          console.log(product);
+
           products.push({
             id: product.nasanr,
             category: product.assgroepnr,
             name: name,
+            ean: product.eannr,
             image: "https://frahmework.ah.nl/!data/products/jpg/" + product.imageid + ".jpg",
             price: product.huidigeprijs,
             quantity: product.inhoud,
             dimensions: dimensions,
             volume: dimensions.width * dimensions.height * dimensions.depth,
-            weight: estimateWeight(product, productCategory, dimensions),
+            weight: estimateWeight(product, productCategory, dimensions)
           });
         }
       }
@@ -189,7 +191,8 @@ router.get('/search/:query', function (req, res, next) {
         numResults: products.length,
         products: products,
         time: new Date().getTime() - now,
-        apiTime: response.time
+        apiTime: response.time,
+        raw: response
       });
     }
   });
@@ -286,7 +289,7 @@ router.get('/categories', function(req, res, next) {
               average_dimensions: {
                 width: averageSize.width,
                 height: averageSize.height
-              }
+              },
             });
           }
 
