@@ -46,5 +46,9 @@ npm start
 ## trouble shooting
 "something is complaining about compass"
 ```bash
-(sudo) gem install compass
+gem install compass
+```
+or
+```bash
+sudo gem install compass
 ```
