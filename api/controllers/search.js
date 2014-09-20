@@ -196,6 +196,41 @@ router.get('/search/:query', function (req, res, next) {
 
 });
 
+router.get('/stores', function(req, res, next) {
+
+  var now = new Date().getTime();
+  var output = [];
+
+  // Get all stores in Amsterdam
+  request("winkels", { winkelplaats: "Amsterdam" }, function(err, response) {
+    if (err) {
+      res.json({
+        success: false,
+        error: err
+      });
+      return;
+    }
+
+    var n = response.data.length;
+    for (var i = 0; i < n; i++) {
+      output.push({
+        id: response.data[i].winkelnr,
+        latitude: response.data[i].latitude,
+        longitude: response.data[i].longitude
+      });
+    }
+
+    res.json({
+      success: true,
+      numResults: output.length,
+      time: new Date().getTime() - now,
+      apiTime: response.time,
+      stores: output
+    })
+  });
+
+});
+
 router.get('/categories', function(req, res, next) {
 
   var output = [];
@@ -207,6 +242,15 @@ router.get('/categories', function(req, res, next) {
       if (validCategories.indexOf(assgroepnr) >= 0) {
         console.log("Checking " + assgroepnr + "..");
         request("artikelinfo", { assgroepnr: assgroepnr }, function(err, response) {
+
+          if (err) {
+            res.json({
+              success: false,
+              error: err
+            });
+            return;
+          }
+
           var data = response.data;
           if (data.length > 0) {
             var content = [];
