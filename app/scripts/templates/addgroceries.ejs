@@ -1,20 +1,35 @@
-<ul class="list-group">
-  <li class="list-group-item">
-  	<img/> 
-  	<span class="name">Bier</span> 
-  	<input type="text" value="1">
-  	<button class="btn pull-right"><span class="glyphicon glyphicon-remove"></span>
-  </li>
-  <li class="list-group-item">
-  	<img/> Chips <button class="btn pull-right"><span class="glyphicon glyphicon-remove"></span>
-  </li>
-  <li class="list-group-item">
-  	<img/> Peuken <button class="btn pull-right"><span class="glyphicon glyphicon-remove"></span>
-  </li>
-  <li class="list-group-item">
-  	<button class="btn btn-block">
-  		<span class="pull-left glyphicon glyphicon-plus-sign"></span><span>Add item</span>
-  	</button>
-  </li>	
-</ul>
+<form class="form-inline" role="form">
+	<input type="text"  class="form-control pull-left" value="Bie" name="productname">
+	<ul class="list-group">
+  		<li class="list-group-item">
+  			<span><b>Bie</b>r</span>
+  		</li>
+  		<li class="list-group-item">
+  			<span><b>Bie</b>tjes</span>
+  		</li>
+  	</ul>	
+  	<div class="align-bottom">
+  		<div class="row">
+  			<div class="col-md-4">
+	  			<label>Amount:</label>
+	  		</div>
+	  		<div class="col-md-8">
+	  			<input type="text"  class="form-control" value="1" name="amount">
+	  		</div>
+	  	</div>
+  		<div class="row">
+  			<div class="col-md-4">
+	  			<label>Price €</label>
+	  		</div>
+	  		<div class="col-md-8">
+	  			<span>€0,00</span>
+	  			<input type="hidden"  class="form-control" value="0,00" name="price">
+	  		</div>
+	  	</div>
+		<div class="btn-group">
+			<button type="button" class="btn btn-default consumer"><a>Add to basket<a/></button>
+			<button type="button" class="btn btn-default courier"><a>Go back</a></button>	
+		</div>
+	</div>
+</form>
 
