@@ -8,12 +8,12 @@ define([
 ], function ($, _, Backbone, JST) {
     'use strict';
 
-    var AddgroceriesView = Backbone.View.extend({
-        template: JST['app/scripts/templates/addgroceries.ejs'],
+    var ShoppingbasketView = Backbone.View.extend({
+        template: JST['app/scripts/templates/shoppingbasket.ejs'],
 
         tagName: 'div',
 
-        id: 'addgroceries',
+        id: 'shoppingbasket',
 
         className: 'screen',
 
@@ -30,5 +30,5 @@ define([
         }
     });
 
-    return AddgroceriesView;
+    return ShoppingbasketView;
 });
