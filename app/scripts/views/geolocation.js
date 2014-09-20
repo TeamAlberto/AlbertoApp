@@ -1,20 +1,11 @@
 /*global define*/
 
-define(
-	[ ],
-	function() {
-		return {
-				
-		}
-	}
-);
-
 define([
     'jquery',
     'underscore',
     'backbone',
     'templates',
-    //"async!http://maps.google.com/maps/api/js?key=AIzaSyBu2IneG_H3n2sOBw56oXFT1k4wU6xi4uk&sensor=true!callback" 
+    "async!http://maps.google.com/maps/api/js?key=AIzaSyBu2IneG_H3n2sOBw56oXFT1k4wU6xi4uk&sensor=true!callback" 
 ], function ($, _, Backbone, JST) {
     'use strict';
 
@@ -38,16 +29,25 @@ define([
             this.$el.html(this.template(this.model.toJSON()));
             return this;
         },
-        /*
+        
         loadMap: function( mapCanvas ) {
+        	
+        	var consumerLocation = new google.maps.LatLng(52.3778803,4.9163712,17);
+        	
 			var myOptions = {
-				center: new google.maps.LatLng( -34.397, 150.644 ),
-				zoom: 8,
+				center: consumerLocation,
+				zoom: 17,
 				mapTypeId: google.maps.MapTypeId.ROADMAP
 			};
-	
-			var map = new google.maps.Map( mapCanvas, myOptions );			
-		}*/	
+				
+			var map = new google.maps.Map( mapCanvas, myOptions );	
+			
+			var marker = new google.maps.Marker({
+			    position: consumerLocation,
+			    map: map,
+			    title:"I'm here!"
+			});		
+		}
     });
 
     return GeolocationView;
