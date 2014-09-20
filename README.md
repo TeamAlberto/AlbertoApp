@@ -52,3 +52,7 @@ or
 ```bash
 sudo gem install compass
 ```
+"can't find bower" when running bower install
+```bash
+node_modules/bower/bin/bower install
+```
