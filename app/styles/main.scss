@@ -82,6 +82,7 @@ body {
                 img {
                     margin: 0 auto;
                     height: 50px;
+                    max-width: 50px;
                 }
 
                 .meta {
@@ -123,11 +124,8 @@ body {
         .priceinfo {
             font-size: 20px;
             float: left;
-
-            .price {
-                margin-left: 20px;
-                line-height: 60px;
-            }
+            margin-left: 20px;
+            line-height: 60px;
         }
 
         .btn-group {
