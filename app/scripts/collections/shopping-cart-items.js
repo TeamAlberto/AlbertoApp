@@ -29,7 +29,7 @@ define([
         },
         transportCost: function () {
             var level = this.transportLevel();
-            if (level > 0 && level <= 20) {
+            if (level >= 0 && level <= 20) {
                 return 5;
             } else if (level <= 60) {
                 return 7.5;
