@@ -4,8 +4,9 @@ define([
     'jquery',
     'underscore',
     'backbone',
-    'templates'
-], function ($, _, Backbone, JST) {
+    'templates',
+    'app'
+], function ($, _, Backbone, JST, app) {
     'use strict';
 
     var DeliveryView = Backbone.View.extend({
@@ -17,7 +18,10 @@ define([
 
         className: '',
 
-        events: {},
+        events: {
+          'click .previous': 'previous',
+          'click .next': 'next'
+        },
 
         initialize: function () {
         	this.model = new Backbone.Model();
@@ -27,7 +31,15 @@ define([
         render: function () {
             this.$el.html(this.template(this.model.toJSON()));
             return this;
-        }
+        },
+
+        previous: function () {
+          app.vent.trigger('trackcourier:show');
+        },
+
+        next: function () {
+          app.vent.trigger('splash:show');
+        },
     });
 
     return DeliveryView;

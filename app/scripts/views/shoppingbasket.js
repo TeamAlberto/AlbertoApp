@@ -19,8 +19,8 @@ define([
         className: 'screen',
 
         events: {
-          'click .consumer': 'toConsumer',
-          'click .pay': 'toPay'
+          'click .previous': 'previous',
+          'click .next': 'next'
         },
 
         initialize: function () {
@@ -28,13 +28,12 @@ define([
             this.listenTo(this.model, 'change', this.render);
         },
 
-        toConsumer: function () {
-          console.log('go back');
+        previous: function () {
           app.vent.trigger('addgroceries:show');
         },
 
-        toPay: function () {
-          app.vent.trigger('payment:show');
+        next: function () {
+          app.vent.trigger('geo:show');
         },
 
         render: function () {
