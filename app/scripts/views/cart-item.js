@@ -11,11 +11,11 @@ define([
     var CartView = Backbone.View.extend({
         template: JST['app/scripts/templates/cart-item.ejs'],
 
-        tagName: 'div',
+        tagName: 'li',
 
         id: '',
 
-        className: '',
+        className: 'list-group-item',
 
         events: {
             'click .btn.add-cart': 'addToCart'
