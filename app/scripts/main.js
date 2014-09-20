@@ -21,9 +21,10 @@ require([
     'views/splash',
     'views/shoppingbasket',
     'views/addgroceries',
-], function (Backbone, SplashView, ShoppingbasketView, AddgroceriesView) {
+    'views/geolocation'
+], function (Backbone, SplashView, ShoppingbasketView, AddgroceriesView, GeolocationView) {
     Backbone.history.start();
-   	//var view = new SplashView();
-   	var view = new ShoppingbasketView();
+   	var view = new AddgroceriesView();
     $('body').html(view.render().el);
+    //view.loadMap($("#map").get(0));
 });
