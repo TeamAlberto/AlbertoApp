@@ -25,12 +25,13 @@ define([
             this.listenTo(this.model, 'change', this.render);
         },
 
-        addToCart: function () {
+        addToCart: function (e) {
+            e.preventDefault();
             var existing = this.collection.get(this.model.id);
             if (existing) {
-                this.model.set({quantity: (this.model.get('quantity') || 1) + 1})
+                this.model.set({basketQuantity: (this.model.get('basketQuantity') || 1) + 1})
             } else {
-                this.model.set('quantity', 1);
+                this.model.set('basketQuantity', 1);
                 this.collection.add(this.model);
             }
         },
