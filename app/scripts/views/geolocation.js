@@ -31,18 +31,19 @@ define([
 
         render: function () {
             this.$el.html(this.template(this.model.toJSON()));
+            this.$('.price').text(this.collection.totalCost());
             setTimeout(function () {
-                this.loadMap($("#map").get(0));
+                this.loadMap(this.$(".map").get(0));
             }.bind(this), 300);
             return this;
         },
 
         previous: function () {
-          app.vent.trigger('cart:show');
+          app.vent.trigger('cart:show', this.collection);
         },
 
         next: function () {
-          app.vent.trigger('payment:show');
+          app.vent.trigger('payment:show', this.collection);
         },
 
         loadMap: function( mapCanvas ) {
