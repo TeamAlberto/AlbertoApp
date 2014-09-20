@@ -56,3 +56,8 @@ sudo gem install compass
 ```bash
 node_modules/bower/bin/bower install
 ```
+
+"can't find grunt" when running grunt serve
+```bash
+node_modules/grunt-cli/bin/grunt serve
+```
