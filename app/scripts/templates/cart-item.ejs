@@ -1,13 +1,13 @@
 <div class="image">
-  <img src="<%= image %>" style="max-height: 200px" />
+  <img src="<%= image %>" />
 </div>
 <div class="meta">
   <h1><%= name %></h1>
   <p><%= price %>€</p>
-  <p>
-    <button class="btn add-cart">+</button>
-    <% if (typeof basketQuantity !== "undefined") { %>
-      (<%= basketQuantity %>)
-    <% } %>
-  </p>
 </div>
+<p class="add">
+  <button class="btn add-cart">+</button>
+  <% if (typeof basketQuantity !== "undefined") { %>
+    (<%= basketQuantity %>)
+  <% } %>
+</p>

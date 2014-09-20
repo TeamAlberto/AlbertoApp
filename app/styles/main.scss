@@ -95,6 +95,21 @@ body {
                         margin: 0;
                     }
                 }
+
+                .add {
+                    display: table-cell;
+                    vertical-align: middle;
+
+                    button {
+                        cursor: pointer;
+                        background-color: $blue;
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        border: 0;
+                        color: #FFF;
+                    }
+                }
             }
         }
 
