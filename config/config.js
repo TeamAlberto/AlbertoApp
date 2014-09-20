@@ -24,8 +24,10 @@ var config = {
     app: {
       name: 'albertoapp'
     },
-    port: 3000
+    port: 30002
   }
 };
 
 module.exports = config[env];
+
+module.exports.ahApiKey = require("./ah");
