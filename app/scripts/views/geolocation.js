@@ -55,7 +55,8 @@ define([
             var myOptions = {
                 center: customerPosition,
                 zoom: 17,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                disableDefaultUI: true
             };
 
             var map = new google.maps.Map( mapCanvas, myOptions );
