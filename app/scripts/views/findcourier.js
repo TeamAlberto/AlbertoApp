@@ -24,12 +24,27 @@ define([
         },
 
         initialize: function () {
-        	this.model = new Backbone.Model();
+          	this.model = new Backbone.Model();
             this.listenTo(this.model, 'change', this.render);
         },
 
         render: function () {
             this.$el.html(this.template(this.model.toJSON()));
+            var i = 1;
+            var interval = setInterval(function () {
+                var string = '';
+                _(i).times(function() { string += '.'; });
+                if (i === 3) {
+                    i = 1;
+                } else {
+                    i++;
+                }
+                this.$('.progress').text(string);
+            }.bind(this), 300);
+            setTimeout(function () {
+                clearInterval(interval);
+                this.next();
+            }.bind(this), 10000);
             return this;
         },
 
