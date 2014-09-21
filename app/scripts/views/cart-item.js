@@ -18,7 +18,8 @@ define([
         className: 'list-group-item',
 
         events: {
-            'click .btn.add-cart': 'addToCart'
+            'click .btn.add-cart': 'addToCart',
+            'click .btn.remove-cart': 'removeFromCart',
         },
 
         initialize: function () {
@@ -33,6 +34,17 @@ define([
             } else {
                 this.model.set('basketQuantity', 1);
                 this.collection.add(this.model);
+            }
+        },
+
+        removeFromCart: function (e) {
+            e.preventDefault();
+            var existing = this.collection.get(this.model.id);
+            if (existing.get('basketQuantity') > 1) {
+                this.model.set({basketQuantity: this.model.get('basketQuantity') - 1})
+            } else {
+                this.collection.remove(this.model);
+                this.model.set({basketQuantity: 0});
             }
         },
 

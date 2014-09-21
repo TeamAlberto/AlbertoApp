@@ -2,10 +2,12 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
 * {
     box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
 }
 
 $width: 320px;
 $blue: #00a0e2;
+$orange: #ff6400;
 
 html, body {
     width: $width;
@@ -15,7 +17,7 @@ html, body {
 body {
     margin: 0;
     height: 100%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Dosis', sans-serif;
 }
 
 #splash {
@@ -27,18 +29,32 @@ body {
 
     .btn-group {
         position: absolute;
-        bottom: 10%;
+        bottom: 10px;
         text-align: center;
         width: $width;
 
         button {
-            margin: 0 20px;
-            background-color: $blue;
-            padding: 10px 20px;
+            font-family: 'Dosis', sans-serif;
+            font-size: 24px;
+            background-color: $orange;
+            border-radius: 6px;
+            padding: 10px 20px 13px;
+            width: 280px;
             border: 0;
             color: #FFF;
         }
+
+        p {
+            color: #FFF;
+            font-size: 10px;
+        }
     }
+}
+
+.app-header {
+    background-image: url("./../images/header.jpg");
+    background-size: 320px 64px;
+    height: 64px;
 }
 
 #add {
@@ -53,7 +69,9 @@ body {
             width: 100%;
             border: 0;
             font-size: 12px;
-            padding: 10px;
+            padding: 10px 10px 10px 15px;
+            border-radius: 15px;
+            outline: 0;
         }
     }
 
@@ -69,6 +87,8 @@ body {
             li {
                 margin: 0;
                 display: table-row;
+                border-bottom: 1px #CCC solid;
+                display: block;
 
                 .image {
                     width: 80px;
@@ -82,17 +102,44 @@ body {
                 img {
                     margin: 0 auto;
                     height: 50px;
+                    max-width: 50px;
                 }
 
                 .meta {
                     display: table-cell;
 
                     h1 {
-                        font-size: 14px;
+                        font-size: 20px;
+                        margin: 16px 0 2px;
                     }
 
                     p {
                         margin: 0;
+                    }
+                }
+
+                .add {
+                    display: table-cell;
+                    vertical-align: middle;
+                    width: 50px;
+                    text-align: right;
+
+                    span {
+                        width: 20px;
+                        display: inline-block;
+                    }
+
+                    button {
+                        cursor: pointer;
+                        background-color: $blue;
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        border: 0;
+                        color: #FFF;
+
+                        &:first-child {
+                        }
                     }
                 }
             }
@@ -108,11 +155,8 @@ body {
         .priceinfo {
             font-size: 20px;
             float: left;
-
-            .price {
-                margin-left: 20px;
-                line-height: 60px;
-            }
+            margin-left: 20px;
+            line-height: 60px;
         }
 
         .btn-group {

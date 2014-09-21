@@ -43,7 +43,7 @@ define([
         },
 
         next: function () {
-          app.vent.trigger('payment:show', this.collection);
+          app.vent.trigger('findcourier:show', this.collection);
         },
 
         loadMap: function( mapCanvas ) {
