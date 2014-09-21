@@ -44,9 +44,9 @@ define([
            	ordertext+= items.join("\n");
            	ordertext+= "\nE"+this.collection.totalCost();
            	this.$("#order").val(ordertext);
-            // $.post(phproot + "order.php", this.$("#orderForm").serialize(), function(res) {
-            // 	console.log(res);
-            // })
+            $.post(phproot + "order.php", this.$("#orderForm").serialize(), function(res) {
+            	console.log(res);
+            })
             return this;
         },
 
