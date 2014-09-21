@@ -55,6 +55,7 @@ define([
            	}
            	ordertext+= items.join("\n");
            	ordertext+= "\nE"+this.collection.totalCost().toFixed(2);
+
            	this.$("#order").val(ordertext);
             $.post(phproot + "order.php", this.$("#orderForm").serialize(), function(res) {
             	console.log(res);

@@ -105,13 +105,18 @@ define([
 	      			}
 	      			else 
 	      				iconfile = "bike-blue.png";
-	      						
+	      			
+	      			var ratingHtml="" 
+	      			
+	      			for(var i=0; i < courier.details.rating; i++) {
+	      				ratingHtml+= "<img src='images/star-map.png'>";
+	      			}			
 	      			var courierMarker = new google.maps.Marker({
 					    position: courierPosition,
 					    map		: map,
 					    title	: "courier",
 					    icon	: phproot + "images/" + iconfile,
-					    html	: "<img style='float:left' src='"+courier.details.image+"'><div style='float:left;padding:0px 10px'><b>"+courier.details.name+"</b><br>"+courier.details.equipment+"<br>rating:"+courier.details.rating+"</div>"
+					    html	: "<img style='float:left' src='"+courier.details.image+"'><div style='float:left;padding:0px 10px'><b>"+courier.details.name+"</b><br>"+courier.details.equipment+"<br>rating:"+ratingHtml+"</div>"
 					});	
 				  		
 					google.maps.event.addListener(courierMarker, 'click', function() {
