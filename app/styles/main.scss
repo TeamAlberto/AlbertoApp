@@ -287,11 +287,17 @@ input {
 #trackcourier {
 
     #map {
+        background-color: #FCFCFC;
+
         .loader {
             width: 100%;
             text-align: center;
             padding-top: 100px;
         }
+    }
+
+    #data {
+        display: none;
     }
 
     h1 {
@@ -304,27 +310,46 @@ input {
 
     .person {
         display: none;
-        margin-top: -3px;
+        margin: 10px;
 
-        img {
+        #profile {
             display: table-cell;
+            margin: 20px 0 0 20px;
         }
 
         .meta {
             display: table-cell;
             vertical-align: middle;
             padding-left: 10px;
+            padding-top: 18px;
 
             h2 {
-                display: inline;
                 font-size: 16px;
                 margin: 0;
             }
 
             #rating {
-                display: inline;
+                display: table-cell;
             }
         }
+    }
+
+    .time {
+        padding: 0 20px 10px;
+
+        p {
+            margin: 10px 0;
+        }
+
+        strong {
+            color: $blue;
+        }
+    }
+
+    button {
+        display: block;
+        width: 250px;
+        margin: 0 auto;
     }
 
 }
