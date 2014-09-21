@@ -34,7 +34,7 @@ define([
         },
 
         previous: function () {
-          app.vent.trigger('geo:show');
+          app.vent.trigger('geo:show', this.collection);
         },
 
         next: function () {
