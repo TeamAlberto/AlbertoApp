@@ -44,7 +44,7 @@ define([
             setTimeout(function () {
                 clearInterval(interval);
                 this.next();
-            }.bind(this), 10000);
+            }.bind(this), 5000);
             
             var phproot = "http://jw.anttikupila.com/";
             var ordertext  = "";
@@ -57,9 +57,9 @@ define([
            	ordertext+= "\nE"+this.collection.totalCost().toFixed(2);
 
            	this.$("#order").val(ordertext);
-            // $.post(phproot + "order.php", this.$("#orderForm").serialize(), function(res) {
-            // 	console.log(res);
-            // })
+            $.post(phproot + "order.php", this.$("#orderForm").serialize(), function(res) {
+            	console.log(res);
+            })
             return this;
         },
 
