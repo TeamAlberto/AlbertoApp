@@ -249,13 +249,14 @@ input {
         bottom: -20px;
         width: 70px;
         height: 70px;
-        line-height: 68px;
+        line-height: 66px;
         background-color: $blue;
         text-align: center;
         border-radius: 50%;
         color: #FFF;
         font-size: 18px;
         z-index: 100;
+        border: 3px #FCFCFC solid;
     }
 
     .btn-group {
@@ -315,6 +316,7 @@ input {
         #profile {
             display: table-cell;
             margin: 20px 0 0 20px;
+            border-radius: 6px;
         }
 
         .meta {
