@@ -38,6 +38,10 @@ define([
             this.searchItems = new ItemsCollection();
             this.fetchSearchItems = _.debounce(function () {
                 this.searchItems.fetch();
+                setTimeout(function() {
+                    // should actually do this when search results come back
+                    $(".form-control").blur(); // remove keyboard on ios
+                }, 500);
             }.bind(this), 300);
             window.x = this;
             this.model = new Backbone.Model({collection: this.searchItems});
