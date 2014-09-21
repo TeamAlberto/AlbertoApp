@@ -38,7 +38,8 @@ define([
             }
         },
         totalCost: function () {
-            return this.transportCost() + this.groceryPrice();
+            var cost = this.transportCost() + this.groceryPrice();
+            return Math.round(cost * 100) / 100;
         }
     });
 
