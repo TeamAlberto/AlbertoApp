@@ -18,8 +18,8 @@ define([
         className: 'list-group-item',
 
         events: {
-            'click .btn.add-cart': 'addToCart',
-            'click .btn.remove-cart': 'removeFromCart',
+            'click .add-cart': 'addToCart',
+            'click .remove-cart': 'removeFromCart',
         },
 
         initialize: function () {
