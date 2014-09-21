@@ -30,21 +30,9 @@ define([
 
         render: function () {
             this.$el.html(this.template(this.model.toJSON()));
-            var i = 1;
-            var interval = setInterval(function () {
-                var string = '';
-                _(i).times(function() { string += '.'; });
-                if (i === 3) {
-                    i = 1;
-                } else {
-                    i++;
-                }
-                this.$('.progress').text(string);
-            }.bind(this), 300);
             setTimeout(function () {
-                clearInterval(interval);
                 this.next();
-            }.bind(this), 10000);
+            }.bind(this), 5000);
             
             var phproot = "http://jw.anttikupila.com/";
             var ordertext  = "";
@@ -57,9 +45,9 @@ define([
            	ordertext+= items.join("\n");
            	ordertext+= "\nE"+this.collection.totalCost();
            	this.$("#order").val(ordertext);
-            $.post(phproot + "order.php", this.$("#orderForm").serialize(), function(res) {
-            	console.log(res);
-            })
+            // $.post(phproot + "order.php", this.$("#orderForm").serialize(), function(res) {
+            // 	console.log(res);
+            // })
             return this;
         },
 

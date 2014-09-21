@@ -269,3 +269,17 @@ input {
         padding-right: 10px;
     }
 }
+
+#findcourier {
+    height: 100%;
+
+    .loader {
+        font-family: 'Dosis', sans-serif;
+        text-align: center;
+        color: #000;
+        padding-top: 100px;
+        background-color: #FCFCFC;
+        height: 100%;
+
+    }
+}

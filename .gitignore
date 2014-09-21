@@ -8,3 +8,4 @@ test/bower_components/
 npm-debug.log
 config/ah.js
 app/.DS_Store
+app/images/.DS_Store
