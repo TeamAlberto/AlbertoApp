@@ -87,8 +87,10 @@ body {
             li {
                 margin: 0;
                 display: table-row;
-                border-bottom: 1px #CCC solid;
-                display: block;
+
+                .image, .meta, .add {
+                    border-bottom: 1px #CCC solid;
+                }
 
                 .image {
                     width: 80px;
@@ -97,12 +99,12 @@ body {
                     text-align: center;
                     padding: 15px;
                     display: table-cell;
-                }
 
-                img {
-                    margin: 0 auto;
-                    height: 50px;
-                    max-width: 50px;
+                    img {
+                        margin: 0 auto;
+                        height: 50px;
+                        max-width: 50px;
+                    }
                 }
 
                 .meta {
@@ -121,25 +123,23 @@ body {
                 .add {
                     display: table-cell;
                     vertical-align: middle;
-                    width: 50px;
+                    width: 100px;
                     text-align: right;
+                    padding-right: 10px;
 
                     span {
                         width: 20px;
                         display: inline-block;
+                        text-align: center;
+                        position: relative;
+                        top: -4px;
+                        left: 1px;
+                        font-size: 18px;
                     }
 
-                    button {
-                        cursor: pointer;
-                        background-color: $blue;
-                        width: 30px;
-                        height: 30px;
-                        border-radius: 50%;
-                        border: 0;
-                        color: #FFF;
-
-                        &:first-child {
-                        }
+                    a {
+                        padding: 10px;
+                        margin: -10px;
                     }
                 }
             }
