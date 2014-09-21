@@ -6,8 +6,9 @@
   <p><%= price %>€</p>
 </div>
 <p class="add">
-  <button class="btn add-cart">+</button>
+  <button class="btn remove-cart">+</button>
   <% if (typeof basketQuantity !== "undefined") { %>
-    (<%= basketQuantity %>)
+    <span><%= basketQuantity %></span>
   <% } %>
+  <button class="btn add-cart">+</button>
 </p>
