@@ -5,9 +5,9 @@ define([
     'underscore',
     'backbone',
     'templates',
-    "async!http://maps.google.com/maps/api/js?key=AIzaSyBu2IneG_H3n2sOBw56oXFT1k4wU6xi4uk&sensor=true!callback" ,
+    //"async!http://maps.google.com/maps/api/js?key=AIzaSyBu2IneG_H3n2sOBw56oXFT1k4wU6xi4uk&sensor=true!callback" ,
     'app'
-], function ($, _, Backbone, JST, _goog, app) {
+], function ($, _, Backbone, JST, app) {
     'use strict';
 
     var GeolocationView = Backbone.View.extend({
@@ -47,22 +47,35 @@ define([
         },
 
         loadMap: function( mapCanvas ) {
-
-            var consumerLocation = new google.maps.LatLng(52.3778803,4.9163712,17);
-
+			
+			var phproot = "http://jw.anttikupila.com/";
+			
+            var customerPosition = new google.maps.LatLng(52.3778803,4.9163712,17);
+			
             var myOptions = {
-                center: consumerLocation,
+                center: customerPosition,
                 zoom: 17,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             };
 
             var map = new google.maps.Map( mapCanvas, myOptions );
-
-            var marker = new google.maps.Marker({
-                position: consumerLocation,
-                map: map,
-                title:"I'm here!"
-            });
+			
+			var infowindow = new google.maps.InfoWindow({
+					content: ""
+			  	});
+			  	
+            var customerMarker = new google.maps.Marker({
+			    position: customerPosition,
+			    map		: map,
+			    title	: "you",
+			    icon	: phproot + "images/user.png",
+			    html	: "<img style='float:left' src='https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c0.0.50.50/p50x50/10440915_10154240396205191_8041266776110507469_n.jpg?oh=2d548d76e49e2ff6fbd784f9f06a6c89&oe=548FBA59&__gda__=1422610069_91a835c0806b3c623d0ff4e8e78b63e4'><div style='float:left;padding:0px 10px'><b>Your location</b></div>"
+			});
+			
+			google.maps.event.addListener(customerMarker, 'click', function() {
+			    infowindow.setContent(this.html);
+			    infowindow.open(map,this);
+			});
         }
     });
 
