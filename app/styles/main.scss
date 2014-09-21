@@ -294,6 +294,10 @@ input {
         }
     }
 
+    #data {
+        display: none;
+    }
+
     h1 {
         font-size: 20px;
         padding: 10px;
@@ -325,6 +329,20 @@ input {
                 display: inline;
             }
         }
+    }
+
+    .time {
+        padding: 0 20px 15px;
+
+        strong {
+            color: $blue;
+        }
+    }
+
+    button {
+        display: block;
+        width: 250px;
+        margin: 0 auto;
     }
 
 }

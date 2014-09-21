@@ -28,8 +28,6 @@ define([
         initialize: function () {
           	this.model = new Backbone.Model();
             this.listenTo(this.model, 'change', this.render);
-
-            $("#data").slideUp(0);
         },
 
         render: function () {
@@ -111,6 +109,8 @@ define([
 	      				$("#name").text(courier.details.name);
 	      				$(".person").css("display", "table-row");
 
+	      				$("#data").show();
+	      				$("#data").slideUp(0);
 	      				$("#data").slideDown();
 	      			}
 	      			else 
