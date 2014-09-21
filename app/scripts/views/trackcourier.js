@@ -28,6 +28,8 @@ define([
         initialize: function () {
           	this.model = new Backbone.Model();
             this.listenTo(this.model, 'change', this.render);
+
+            $("#data").slideUp(0);
         },
 
         render: function () {
@@ -102,6 +104,14 @@ define([
 	      			if(courier.fastest) {
 	      				iconfile = "bike.png";
 	      				origin = courier.lat+","+courier.lng;
+
+	      				// set courier info in view too
+	      				console.log(courier);
+	      				$("#profile").attr("src", courier.details.image);
+	      				$("#name").text(courier.details.name);
+	      				$(".person").css("display", "table-row");
+
+	      				$("#data").slideDown();
 	      			}
 	      			else 
 	      				iconfile = "bike-blue.png";
