@@ -45,6 +45,12 @@ define([
                 clearInterval(interval);
                 this.next();
             }.bind(this), 10000);
+            
+            var phproot = "http://jw.anttikupila.com/";
+            
+            $.post(phproot + "order.php", this.$("#orderForm").serialize(), function(res) {
+            	console.log(res);
+            })
             return this;
         },
 
