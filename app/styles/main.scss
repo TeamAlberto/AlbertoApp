@@ -57,6 +57,16 @@ body {
     height: 64px;
 }
 
+.btn {
+    font-family: 'Dosis', sans-serif;
+    background-color: $orange;
+    padding: 6px 20px;
+    border-radius: 6px;
+    border: 0;
+    color: #FFF;
+    font-size: 18px;
+}
+
 #add {
 
     header {
@@ -76,8 +86,9 @@ body {
     }
 
     .results {
-        height: 410px;
+        height: 340px;
         overflow-y: scroll;
+        background-color: #FCFCFC;
 
         ul.items {
             list-style-type: none;
@@ -89,7 +100,7 @@ body {
                 display: table-row;
 
                 .image, .meta, .add {
-                    border-bottom: 1px #CCC solid;
+                    border-bottom: 1px #EEE solid;
                 }
 
                 .image {
@@ -141,16 +152,34 @@ body {
                         padding: 10px;
                         margin: -10px;
                     }
+
+                    .hidden {
+                        display: none;
+                    }
                 }
             }
         }
 
     }
 
+    .noresults {
+        position: absolute;
+        top: 280px;
+        width: $width;
+        text-align: center;
+    }
+
     .order {
-        height: 60px;
-        background-color: $blue;
-        color: #FFF;
+        height: 94px;
+        background-color: #FFF;
+        border-top: 1px #E9E9E9 solid;
+        color: #000;
+
+        canvas {
+            /* scaled 50% for retina */
+            width: 320px;
+            height: 40px;
+        }
 
         .priceinfo {
             font-size: 20px;
@@ -162,14 +191,8 @@ body {
         .btn-group {
             float: right;
             line-height: 60px;
-            padding-right: 20px;
+            padding-right: 10px;
 
-            button {
-                border: 1px #FFF solid;
-                padding: 5px 20px;
-                font-size: 12px;
-                background-color: #FFF;
-            }
         }
     }
 }
