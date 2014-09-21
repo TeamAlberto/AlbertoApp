@@ -269,13 +269,3 @@ input {
         padding-right: 10px;
     }
 }
-
-.results {
-  background-image: url(./../images/bike.jpg);
-  background-size: cover;
-  background-position: center center;
-}
-
-.results.loading {
-  background-image: url(./../images/bike-loading.gif);
-}
