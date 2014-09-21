@@ -33,7 +33,7 @@ require([
 ], function (Backbone, app) {
     console.log('main');
     Backbone.history.start();
-    app.vent.trigger('trackcourier:show');
+    app.vent.trigger('splash:show');
    // 	var view = new SplashView();
     // $('body').html(view.render().el);
     // view.loadMap($("#map").get(0));
