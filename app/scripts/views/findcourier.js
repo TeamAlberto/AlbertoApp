@@ -51,7 +51,6 @@ define([
             var items = new Array();
            	for(var i in this.collection.models) {
            		var item = this.collection.models[i].attributes;  
-           		console.log("hier");
            		items.push(item.basketQuantity+"* "+item.name);    		
            	}
            	ordertext+= items.join("\n");
