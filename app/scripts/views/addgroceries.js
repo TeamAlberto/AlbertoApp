@@ -37,6 +37,7 @@ define([
             });
             this.searchItems = new ItemsCollection();
             this.fetchSearchItems = _.debounce(function () {
+                this.loading();
                 this.searchItems.fetch();
                 setTimeout(function() {
                     // should actually do this when search results come back
@@ -49,6 +50,10 @@ define([
             this.listenTo(this.searchItems, 'add', this.renderItems);
             this.listenTo(this.searchItems, 'remove', this.renderItems);
             this.listenTo(this.cartItems, 'all', this.renderTotal);
+        },
+
+        loading: function () {
+            this.$('.results').addClass('loading');
         },
 
         render: function () {
