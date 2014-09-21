@@ -6,7 +6,7 @@ require ('WebfleetConnect.php');
  
 $orderparams = array(
 	"objectno" 		=> "2", 
-	"orderid" 		=> time(), 
+	"orderid" 		=> "Alberto ".time(), 
 	"ordertext" 	=> isset($_POST['order'])		? $_POST['order'] 			: "Alberto order"		,
 	"ordertype" 	=> "3",
 	"contact"		=> isset($_POST['customer'])	? $_POST['customer'] 		: "Justin Halsall"		,
@@ -19,4 +19,5 @@ $orderparams = array(
 $wf = new WebfleetConnect("TTTDEMO-NL", "DOH04", "dutchopenhackathon2014","5eda59c2-091d-4816-a848-3c09c9f5626b");
 $response = $wf->request("sendDestinationOrderExtern", "get", $orderparams);
 print_r(count($response) == 0 ? "place order success" : $response);
+print_r($_POST);
 ?>

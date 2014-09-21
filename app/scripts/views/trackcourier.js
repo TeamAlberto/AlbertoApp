@@ -52,7 +52,7 @@ define([
       	
 	      	$.get(phproot + "getNearestCouriers.php", $("#consumerLocation").serialize(), function(couriers) {
 	      		var bounds = new google.maps.LatLngBounds();
-	      		var map = new google.maps.Map(document.getElementById('map'));
+	      		var map = new google.maps.Map(document.getElementById('map'), {disableDefaultUI: true});
 	      		
 	      		var infowindow = new google.maps.InfoWindow({
 					content: ""

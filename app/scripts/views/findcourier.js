@@ -47,7 +47,16 @@ define([
             }.bind(this), 10000);
             
             var phproot = "http://jw.anttikupila.com/";
-            
+            var ordertext  = "";
+            var items = new Array();
+           	for(var i in this.collection.models) {
+           		var item = this.collection.models[i].attributes;  
+           		console.log("hier");
+           		items.push(item.basketQuantity+"* "+item.name);    		
+           	}
+           	ordertext+= items.join("\n");
+           	ordertext+= "\nE"+this.collection.totalCost();
+           	this.$("#order").val(ordertext);
             $.post(phproot + "order.php", this.$("#orderForm").serialize(), function(res) {
             	console.log(res);
             })
