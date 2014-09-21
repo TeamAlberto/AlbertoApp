@@ -9,7 +9,7 @@ define([
     var ShoppingcartitemsCollection = Backbone.Collection.extend({
         groceryPrice: function () {
             return this.reduce(function(total, item){
-                return total + (item.get('price') * item.get('basketQuantity'));
+                return Math.round((total + (item.get('price') * item.get('basketQuantity'))) * 10) / 10;
             }, 0);
         },
         transportLevel: function () {
@@ -29,9 +29,9 @@ define([
         },
         transportCost: function () {
             var level = this.transportLevel();
-            if (level >= 0 && level <= 20) {
+            if (level >= 0 && level <= 33) {
                 return 5;
-            } else if (level <= 60) {
+            } else if (level <= 67) {
                 return 7.5;
             } else {
                 return 10;

@@ -7,8 +7,9 @@ define([
     'templates',
     'views/cart-item',
     'app',
-    'collections/shopping-cart-items'
-], function ($, _, Backbone, JST, CartItemView, app, ShoppingCartItemsCollection) {
+    'collections/shopping-cart-items',
+    'transport'
+], function ($, _, Backbone, JST, CartItemView, app, ShoppingCartItemsCollection, TransportView) {
     'use strict';
 
     var AddgroceriesView = Backbone.View.extend({
@@ -50,6 +51,7 @@ define([
             this.$el.html(this.template(this.model.toJSON()));
             this.renderItems();
             this.renderTotal();
+            this.updateTransport();
             return this;
         },
 
@@ -60,12 +62,24 @@ define([
                 $items.append(view.render().el);
             }.bind(this));
             if (!this.searchItems.length) {
-                $items.text('Start searching for items above...');
+                $(".noresults").show();
+            } else {
+                $(".noresults").hide();
             }
         },
 
         renderTotal: function () {
             this.$('.price').text(this.cartItems.groceryPrice());
+            this.$('.transport').text(this.cartItems.transportCost());
+            this.updateTransport();
+        },
+
+        updateTransport: function() {
+            if (!this.transportView) {
+                this.transportView = new TransportView({ canvas: this.$("#transport").get(0) });
+            }
+
+            this.transportView.update(this.cartItems.transportLevel());
         },
 
         toCart: function () {
