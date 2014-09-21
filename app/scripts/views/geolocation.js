@@ -39,7 +39,7 @@ define([
         },
 
         previous: function () {
-          app.vent.trigger('cart:show', this.collection);
+          app.vent.trigger('addgroceries:show', this.collection);
         },
 
         next: function () {

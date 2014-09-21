@@ -20,6 +20,10 @@ body {
     font-family: 'Dosis', sans-serif;
 }
 
+.clearfix {
+    clear: both;
+}
+
 #splash {
     background-image: url(./../images/cover.jpg);
     background-size: cover;
@@ -67,22 +71,22 @@ body {
     font-size: 18px;
 }
 
+input {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    border: 0;
+    font-size: 12px;
+    padding: 10px 10px 10px 15px;
+    border-radius: 15px;
+    outline: 0;
+}
+
 #add {
 
     header {
         background-color: $blue;
         padding: 10px;
         height: 60px;
-
-        input {
-            font-family: 'Montserrat', sans-serif;
-            width: 100%;
-            border: 0;
-            font-size: 12px;
-            padding: 10px 10px 10px 15px;
-            border-radius: 15px;
-            outline: 0;
-        }
     }
 
     .results {
@@ -199,4 +203,69 @@ body {
 
 .map {
   height: 250px;
+}
+
+.geo {
+    position: relative;
+    
+    .details {
+        width: 100%;
+        min-height: 200px;
+        background-color: #FCFCFC;
+
+        h1 {
+            font-size: 20px;
+            padding: 10px;
+            margin: 0 0 10px;
+            background-color: $blue;
+            color: #FFF;
+        }
+
+        .left {
+            float: left;
+            width: 33%;
+            padding: 7px 0 0 10px;
+        }
+
+        .right {
+            float: left;
+            clear: right;
+            width: 67%;
+            padding-right: 10px;
+
+            input {
+                width: 100%;
+                padding: 7px;
+                border-radius: 6px;
+                border: 1px $blue solid;
+            }
+        }
+
+    }
+
+    .priceinfo {
+        position: absolute;
+        left: 20px;
+        bottom: -20px;
+        width: 70px;
+        height: 70px;
+        line-height: 68px;
+        background-color: $blue;
+        text-align: center;
+        border-radius: 50%;
+        color: #FFF;
+        font-size: 18px;
+        z-index: 100;
+    }
+
+    .btn-group {
+        border-top: 1px #DDD solid;
+        padding-top: 14px;
+        background-color: #FFF;
+        width: 100%;
+        position: absolute;
+        text-align: right;
+        bottom: -43px;
+        padding-right: 10px;
+    }
 }

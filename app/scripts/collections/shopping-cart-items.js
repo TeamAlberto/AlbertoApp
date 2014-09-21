@@ -9,7 +9,7 @@ define([
     var ShoppingcartitemsCollection = Backbone.Collection.extend({
         groceryPrice: function () {
             return this.reduce(function(total, item){
-                return Math.round((total + (item.get('price') * item.get('basketQuantity'))) * 10) / 10;
+                return Math.round((total + (item.get('price') * item.get('basketQuantity'))) * 100) / 100;
             }, 0);
         },
         transportLevel: function () {

@@ -1,43 +1,31 @@
+<header class="app-header">
+</header> 
 <div class="map">
 </div>
-<form role="form">
-	<div class="row">
-		<div class="col-md-4">
-  			<span class="pull-left">City</span>
-  		</div>
-  		<div class="col-md-8">
-  			<input type="text"  class="form-control" value="Amsterdam" name="city">
-  		</div>
-  	</div>
-	<div class="row">
-		<div class="col-md-4">
-  			<span class="pull-left">Address</span>
-  		</div>
-  		<div class="col-md-8">
-  			<input type="text"  class="form-control" value="Pietheinkade 55" name="address">
-  		</div>
-  	</div>
-  	<div class="row">
-		<div class="col-md-4">
-  			<span class="pull-left">Details</span>
-  		</div>
-  		<div class="col-md-8">
-  			<input type="text"  class="form-control" value="UP building, 18th floor" name="details">
-  		</div>
-  	</div>
-  	<div class="row">
-		<div class="col-md-8">
-  			<label class="pull-left">Total</label>
-  		</div>
-  		<div class="col-md-2">
-  			<label class="pull-right">€<span class=price>0,00</span></label>
-  		</div>
-  	</div>
-  	<div class="align-bottom">
-	  	<div class="btn-group">
-			<button type="button" class="btn btn-default previous"><a>Go back<a/></button>
-			<button type="button" class="btn btn-default next"><a>Place Order!</a></button>
-		</div>
+<form class="geo">
+  <div class="details">
+    <h1>Confirm your details</h1>
+    <div class="left">
+      <label for="city">City</label>
+    </div>
+    <div class="right">
+      <input type="text"  class="form-control" value="Amsterdam" name="city">
+    </div>
+    <div class="left">
+    	<label for="address">Address</label>
+    </div>
+    <div class="right">
+    	<input type="text"  class="form-control" value="Pietheinkade 55" name="address">
+    	<input type="text"  class="form-control" value="UP building, 18th floor" name="details">
+    </div>
+    <div class="clearfix"></div>
+  </div>
+  <p class="priceinfo">
+    €<span class=price>0,00</span>
+  </p>
+	<div class="btn-group">
+		<button type="button" class="btn btn-default previous"><a>Go back<a/></button>
+		<button type="button" class="btn btn-default next"><a>Place Order!</a></button>
 	</div>
 
 </form>
