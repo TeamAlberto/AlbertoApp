@@ -24,7 +24,7 @@ define([
         events: {
             'keyup .form-control': 'search',
             'change .form-control': 'search',
-            'click .cart': 'toCart',
+            'click .cart': 'toGeo',
             'click .splash': 'toSplash',
         },
 
@@ -86,8 +86,8 @@ define([
             this.transportView.update(this.cartItems.transportLevel());
         },
 
-        toCart: function () {
-            app.vent.trigger('cart:show', this.cartItems);
+        toGeo: function () {
+            app.vent.trigger('geo:show', this.cartItems);
         },
 
         toSplash: function () {
