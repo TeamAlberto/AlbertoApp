@@ -15,7 +15,7 @@ function dms_to_deg($degrees, $minutes, $seconds )
     return $degrees + ($minutes/60) + ($seconds/3600);
 }
 
-$wf = new WebfleetConnect("schiphol", "DOH05", "dutchopenhackathon2014","5eda59c2-091d-4816-a848-3c09c9f5626b");
+$wf = new WebfleetConnect("TTTDEMO-NL", "ddbgroup", "puntNL","5eda59c2-091d-4816-a848-3c09c9f5626b");
 $vehicles = $wf->request("showObjectReportExtern");
 $couriers = array();
 foreach($vehicles as $vehicle) {

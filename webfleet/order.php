@@ -5,7 +5,7 @@ require ('vendor/autoload.php');
 require ('WebfleetConnect.php');
  
 $orderparams = array(
-	"objectno" 		=> "2", 
+	"objectno" 		=> "1", 
 	"orderid" 		=> "Alberto ".time(), 
 	"ordertext" 	=> isset($_POST['order'])		? $_POST['order'] 			: "Alberto order"		,
 	"ordertype" 	=> "3",
@@ -16,7 +16,7 @@ $orderparams = array(
 	"city"			=> isset($_POST['city']) 		? $_POST['city'] 			: "Pietheinkade 55"		,
 	"street"		=> isset($_POST['address']) 	? $_POST['address'] 		: "Amsterdam"    
 );
-$wf = new WebfleetConnect("TTTDEMO-NL", "DOH04", "dutchopenhackathon2014","5eda59c2-091d-4816-a848-3c09c9f5626b");
+$wf = new WebfleetConnect("TTTDEMO-NL", "ddbgroup", "puntNL","5eda59c2-091d-4816-a848-3c09c9f5626b");
 $response = $wf->request("sendDestinationOrderExtern", "get", $orderparams);
 print_r(count($response) == 0 ? "place order success" : $response);
 print_r($_POST);
