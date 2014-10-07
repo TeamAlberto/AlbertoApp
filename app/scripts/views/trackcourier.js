@@ -74,7 +74,7 @@ define([
 				});	
 				bounds.extend( customerMarker.getPosition() );
 	
-				var ahPosition = new google.maps.LatLng(52.378545, 4.8844231); 
+				var ahPosition = new google.maps.LatLng(52.369219,5.2197833); 
 	      		var ahMarker = new google.maps.Marker({
 				    position: ahPosition,
 				    map		: map,

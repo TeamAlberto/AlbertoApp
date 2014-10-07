@@ -50,7 +50,7 @@ define([
 
 			var phproot = "http://jw.anttikupila.com/";
 			
-            var customerPosition = new google.maps.LatLng(52.3179417,4.8821404);
+            var customerPosition = new google.maps.LatLng(52.3766227,5.2153397);
 			
             var myOptions = {
                 center: customerPosition,
