@@ -49,7 +49,17 @@ define([
         loadMap: function( mapCanvas ) {
 
 	      	var phproot = "http://jw.anttikupila.com/";
-      	
+
+					var ahPosition = new google.maps.LatLng(52.4384806,4.8170658); 
+		      		var ahMarker = new google.maps.Marker({
+					    position: ahPosition,
+					    map		: map,
+					    title	: "ah",
+					    icon	: phproot + "images/store.png",
+					    html	: "Best matching AH"
+					});
+					bounds.extend( ahMarker.getPosition() );	
+				      	
 	      	$.get(phproot + "getNearestCouriers.php", $("#consumerLocation").serialize(), function(couriers) {
 	      		var bounds = new google.maps.LatLngBounds();
 	      		var map = new google.maps.Map(document.getElementById('map'), {disableDefaultUI: true});
@@ -73,16 +83,6 @@ define([
 				    html	: "<img style='float:left' src='https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c0.0.50.50/p50x50/10440915_10154240396205191_8041266776110507469_n.jpg?oh=2d548d76e49e2ff6fbd784f9f06a6c89&oe=548FBA59&__gda__=1422610069_91a835c0806b3c623d0ff4e8e78b63e4'><div style='float:left;padding:0px 10px'><b>Your location</b></div>"
 				});	
 				bounds.extend( customerMarker.getPosition() );
-	
-				var ahPosition = new google.maps.LatLng(52.369219,5.2197833); 
-	      		var ahMarker = new google.maps.Marker({
-				    position: ahPosition,
-				    map		: map,
-				    title	: "ah",
-				    icon	: phproot + "images/store.png",
-				    html	: "Best matching AH"
-				});
-				bounds.extend( ahMarker.getPosition() );		
 						  		
 				google.maps.event.addListener(customerMarker, 'click', function() {
 				    infowindow.setContent(this.html);

@@ -22,4 +22,5 @@ $_GLOBALS['COURIERS'] = array(
 	)
 );
 
+define("USE_API", true);
 ?>
