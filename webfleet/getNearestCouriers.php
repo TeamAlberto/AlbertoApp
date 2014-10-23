@@ -2,7 +2,6 @@
 header('Content-Type: text/html; charset=utf-8');
 require ('vendor/autoload.php');
 require ('WebfleetConnect.php');
-
 require("config.php");
 
 function dms_to_deg($degrees, $minutes, $seconds )
@@ -34,9 +33,14 @@ function deg_to_dms ($deg) {
    return array($d, $m, $s);
 }
 
+if(USE_API) {
+	$wf = new WebfleetConnect("TTTDEMO-NL", "ddbgroup", "puntNL","5eda59c2-091d-4816-a848-3c09c9f5626b");
+	$vehicles = $wf->request("showNearestVehicles", "get", array("latitude" => intval($_REQUEST['lat'] * 1000000), "longitude" => intval($_REQUEST['lng'] * 1000000)));
+}
+else {
+	include("stub-vehicles.php");
+}
 
-$wf = new WebfleetConnect("TTTDEMO-NL", "ddbgroup", "puntNL","5eda59c2-091d-4816-a848-3c09c9f5626b");
-$vehicles = $wf->request("showNearestVehicles", "get", array("latitude" => intval($_REQUEST['lat'] * 1000000), "longitude" => intval($_REQUEST['lng'] * 1000000)));
 $couriers = array();
 foreach($vehicles as $vehicle) {
 	$courier = new stdclass;	
